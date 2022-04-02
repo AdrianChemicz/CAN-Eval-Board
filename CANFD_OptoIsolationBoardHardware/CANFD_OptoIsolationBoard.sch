@@ -36,7 +36,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "CANFD_OptoIsolationBoard.sch"
-Date "10 dec 2021"
+Date "2 apr 2022"
 Rev ""
 Comp ""
 Comment1 ""
@@ -308,7 +308,7 @@ L CRYSTAL X1
 U 1 1 61B124AE
 P 8400 5450
 F 0 "X1" H 8400 5600 60  0000 C CNN
-F 1 "50MHz" H 8400 5300 60  0000 C CNN
+F 1 "40MHz" H 8400 5300 60  0000 C CNN
 F 2 "~" H 8400 5450 60  0000 C CNN
 F 3 "~" H 8400 5450 60  0000 C CNN
 	1    8400 5450
