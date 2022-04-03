@@ -32,8 +32,9 @@ In system was used two optoisolation chip instead one because selected chip tran
 
 On belew schematics was presented all parts of the system.
 
-Version without optoisolation:
-
-Version with optoisolation:
+Version without optoisolation: <br />
+![Device without opto](/Doc/NoOptoDesign.png) <br />
+Version with optoisolation: <br />
+![Device with opto](/Doc/OptoIsolationDesign.png) <br />
 
 ## 5.Project file
