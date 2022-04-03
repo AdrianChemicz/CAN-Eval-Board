@@ -38,3 +38,9 @@ Version with optoisolation: <br />
 ![Device with opto](/Doc/OptoIsolationDesign.png) <br />
 
 ## 5.Project file
+
+PCBs was designed in Kicad application and all files was added to appropriate project folders. <br />
+-board with optoisolation is available in below location: <br />
+[CAN-FD optoisolated board](https://github.com/AdrianChemicz/CAN-Eval-Board/tree/main/CANFD_OptoIsolationBoardHardware) <br />
+-board without optoisolation is available in below location: <br />
+[CAN-FD board](https://github.com/AdrianChemicz/CAN-Eval-Board/tree/main/CANFD_BoardHardware) <br />
