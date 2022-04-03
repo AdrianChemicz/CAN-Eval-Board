@@ -8,7 +8,8 @@ CAN Evaluation Board is hardware project which provide evaluation board for CAN-
 
 ## 1.MCP2517FD
 
-MCP2517FD is Microchip chip which work as SPI to CAN-FD converter. This chip provide also GPIO pins which can be configured via SPI and change state depending from situation like receive CAN message. Those GPIO pins was routed to connector CN1. On new design MCP2517FD chip is not recomended user should select MCP2518FD. Older driver should be compatible with this chip.
+MCP2517FD is Microchip chip which work as SPI to CAN-FD converter. This chip provide also GPIO pins which can be configured via SPI and change state depending from situation like receive CAN message. Those GPIO pins was routed to connector CN1.<br /> 
+On new design MCP2517FD chip is not recomended user should select MCP2518FD. Older driver should be compatible with this chip.
 
 ## 2.Can transceiver
 
