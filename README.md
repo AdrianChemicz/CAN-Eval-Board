@@ -29,9 +29,9 @@ Worse case signal delay in our system was presented on below picture:
 In below table was presented typical and worse case signal propagation delay for all used electrical component.<br />
 Electrical component | Typical propagation delay | Worse case propagation delay
 ------------ | ------------ | ------------
-MAX22245BAWA+ power from 3,3V | 23.4ns | 32.2ns
-MAX22245BAWA+ power from 5V | 22.6ns | 30.7ns
-MCP2562FD | 120ns | 180ns
+MAX22245BAWA+(Optoisolation chip) power from 3,3V | 23.4ns | 32.2ns
+MAX22245BAWA+(Optoisolation chip) power from 5V | 22.6ns | 30.7ns
+MCP2562FD(CAN transceiver) | 120ns | 180ns
 
 Complete worse case propagation delay is equal:
 32.2ns + 30.7ns + 180ns = 242,9ns + small delay on traces which shouldn't exceed 1ns
