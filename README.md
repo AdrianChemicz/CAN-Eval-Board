@@ -34,7 +34,7 @@ MAX22245BAWA+(Optoisolation chip) power from 5V | 22.6ns | 30.7ns
 MCP2562FD(CAN transceiver) | 120ns | 180ns
 
 Complete worse case propagation delay is equal:
-32.2ns + 30.7ns + 180ns = 242,9ns + small delay on traces which shouldn't exceed 1ns
+32.2ns + 30.7ns + 180ns = 242,9ns + small delay on traces which shouldn't exceed 1ns <br /><br />
 In system was used two optoisolation chip instead one because selected chip transmit signal in one direction. Use bidirectional chip is very hard to find becauase chip crisis cause that many electrical component are unavailable on market. In project was used chip MAX22245BAWA+ which work only in single direction. Manufacturer Maxim Integrated offer similar chip but with bidirectional isolation this is marked as MAX22246BAWA+. Using this bidirectional chip PCB design will looks like better - one chip intead two.
 
 ## 4.Overal system design
