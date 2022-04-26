@@ -1,0 +1,1348 @@
+Archive member included to satisfy reference by file (symbol)
+
+D:\NXP_workspace\CMSISv2p00_LPC11xx\Debug\libCMSISv2p00_LPC11xx.a(system_LPC11xx.o)
+                              ./src/cr_startup_lpc11xx.o (SystemInit)
+d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memcpy.o)
+                              ./src/I2C_Driver.o (memcpy)
+d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__weak__main.o)
+                              ./src/cr_startup_lpc11xx.o (__main)
+d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdlib.o)
+                              ./src/MCP2517FD_ExampleFor_LPC111X.o (rand)
+d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(initio.o)
+                              d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdlib.o) (_terminateio)
+d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(raise.o)
+                              d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdlib.o) (raise)
+d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(setvbuf.o)
+                              d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(initio.o) (setvbuf)
+d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdio.o)
+                              d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(initio.o) (__Ciob)
+d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memset.o)
+                              d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(initio.o) (memset)
+d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__fillbuf.o)
+                              d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdio.o) (__filbuf)
+d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_deferredlazyseek.o)
+                              d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__fillbuf.o) (_deferredlazyseek)
+d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_fdopen.o)
+                              d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(initio.o) (_fdopen)
+d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_fflush.o)
+                              d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__fillbuf.o) (_fflush)
+d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_writebuf.o)
+                              d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_deferredlazyseek.o) (_Cwritebuf)
+d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(alloc.o)
+                              d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(initio.o) (_Csys_alloc)
+d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(fclose.o)
+                              d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(initio.o) (fclose)
+d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(fflush.o)
+                              d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(fclose.o) (fflush)
+d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(fseek.o)
+                              d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_deferredlazyseek.o) (fseek)
+d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(ftell.o)
+                              d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(fseek.o) (ftell)
+d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(remove.o)
+                              d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(fclose.o) (remove)
+d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(strlen.o)
+                              d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(remove.o) (strlen)
+d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__init_alloc.o)
+                              d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(alloc.o) (__heaps)
+d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_cr_sbrk.o)
+                              d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(alloc.o) (_sbrk)
+d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_do_fflush.o)
+                              d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(fflush.o) (_do_fflush)
+d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(errno.o)
+                              d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(ftell.o) (errno)
+d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_cr_check_heap.o)
+                              d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_cr_sbrk.o) (__check_heap_overflow)
+d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(division_32.o)
+                              d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdlib.o) (__aeabi_idiv)
+d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(division_idiv0.o)
+                              d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(division_32.o) (__aeabi_idiv0)
+d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(memcpy.o)
+                              d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memcpy.o) (__aeabi_memcpy)
+
+Discarded input sections
+
+ .group         0x00000000        0x8 ./src/GPIO_Driver.o
+ .group         0x00000000        0x8 ./src/GPIO_Driver.o
+ .group         0x00000000        0x8 ./src/GPIO_Driver.o
+ .group         0x00000000        0x8 ./src/GPIO_Driver.o
+ .group         0x00000000        0x8 ./src/GPIO_Driver.o
+ .group         0x00000000        0x8 ./src/GPIO_Driver.o
+ .group         0x00000000        0x8 ./src/GPIO_Driver.o
+ .group         0x00000000        0x8 ./src/GPIO_Driver.o
+ .group         0x00000000        0x8 ./src/GPIO_Driver.o
+ .text          0x00000000        0x0 ./src/GPIO_Driver.o
+ .data          0x00000000        0x0 ./src/GPIO_Driver.o
+ .bss           0x00000000        0x0 ./src/GPIO_Driver.o
+ .text.GPIO_GetState
+                0x00000000       0x44 ./src/GPIO_Driver.o
+ .group         0x00000000        0x8 ./src/I2C_Driver.o
+ .group         0x00000000        0x8 ./src/I2C_Driver.o
+ .group         0x00000000        0x8 ./src/I2C_Driver.o
+ .group         0x00000000        0x8 ./src/I2C_Driver.o
+ .group         0x00000000        0x8 ./src/I2C_Driver.o
+ .group         0x00000000        0x8 ./src/I2C_Driver.o
+ .group         0x00000000        0x8 ./src/I2C_Driver.o
+ .group         0x00000000        0x8 ./src/I2C_Driver.o
+ .group         0x00000000        0x8 ./src/I2C_Driver.o
+ .text          0x00000000        0x0 ./src/I2C_Driver.o
+ .data          0x00000000        0x0 ./src/I2C_Driver.o
+ .bss           0x00000000        0x0 ./src/I2C_Driver.o
+ .text.NVIC_EnableIRQ
+                0x00000000       0x2c ./src/I2C_Driver.o
+ .bss.SCLL      0x00000000        0x2 ./src/I2C_Driver.o
+ .bss.SCLH      0x00000000        0x2 ./src/I2C_Driver.o
+ .text.I2C_SetClockPrescalers
+                0x00000000       0x40 ./src/I2C_Driver.o
+ .text.I2C_DriverInit
+                0x00000000       0xdc ./src/I2C_Driver.o
+ .text.I2C_SendReadData
+                0x00000000       0xb8 ./src/I2C_Driver.o
+ .text.I2C_CheckStatus
+                0x00000000       0x2c ./src/I2C_Driver.o
+ .text.I2C_PointerToInternalReadBuffer
+                0x00000000       0x28 ./src/I2C_Driver.o
+ .debug_macro   0x00000000      0x844 ./src/I2C_Driver.o
+ .debug_macro   0x00000000       0x10 ./src/I2C_Driver.o
+ .debug_macro   0x00000000      0x12d ./src/I2C_Driver.o
+ .debug_macro   0x00000000      0x5b2 ./src/I2C_Driver.o
+ .debug_macro   0x00000000       0x1c ./src/I2C_Driver.o
+ .debug_macro   0x00000000       0x2e ./src/I2C_Driver.o
+ .debug_macro   0x00000000      0x237 ./src/I2C_Driver.o
+ .debug_macro   0x00000000      0x131 ./src/I2C_Driver.o
+ .group         0x00000000        0x8 ./src/MCP2517FD_ExampleFor_LPC111X.o
+ .group         0x00000000        0x8 ./src/MCP2517FD_ExampleFor_LPC111X.o
+ .group         0x00000000        0x8 ./src/MCP2517FD_ExampleFor_LPC111X.o
+ .group         0x00000000        0x8 ./src/MCP2517FD_ExampleFor_LPC111X.o
+ .group         0x00000000        0x8 ./src/MCP2517FD_ExampleFor_LPC111X.o
+ .group         0x00000000        0x8 ./src/MCP2517FD_ExampleFor_LPC111X.o
+ .group         0x00000000        0x8 ./src/MCP2517FD_ExampleFor_LPC111X.o
+ .group         0x00000000        0x8 ./src/MCP2517FD_ExampleFor_LPC111X.o
+ .group         0x00000000        0x8 ./src/MCP2517FD_ExampleFor_LPC111X.o
+ .group         0x00000000        0x8 ./src/MCP2517FD_ExampleFor_LPC111X.o
+ .group         0x00000000        0x8 ./src/MCP2517FD_ExampleFor_LPC111X.o
+ .group         0x00000000        0x8 ./src/MCP2517FD_ExampleFor_LPC111X.o
+ .group         0x00000000        0x8 ./src/MCP2517FD_ExampleFor_LPC111X.o
+ .group         0x00000000        0x8 ./src/MCP2517FD_ExampleFor_LPC111X.o
+ .text          0x00000000        0x0 ./src/MCP2517FD_ExampleFor_LPC111X.o
+ .data          0x00000000        0x0 ./src/MCP2517FD_ExampleFor_LPC111X.o
+ .bss           0x00000000        0x0 ./src/MCP2517FD_ExampleFor_LPC111X.o
+ .rodata.canControlResetValues
+                0x00000000       0x50 ./src/MCP2517FD_ExampleFor_LPC111X.o
+ .rodata.canFifoResetValues
+                0x00000000        0xc ./src/MCP2517FD_ExampleFor_LPC111X.o
+ .rodata.canFilterControlResetValue
+                0x00000000        0x4 ./src/MCP2517FD_ExampleFor_LPC111X.o
+ .rodata.canFilterObjectResetValues
+                0x00000000        0x8 ./src/MCP2517FD_ExampleFor_LPC111X.o
+ .rodata.mcp25xxfdControlResetValues
+                0x00000000       0x14 ./src/MCP2517FD_ExampleFor_LPC111X.o
+ .debug_macro   0x00000000      0x844 ./src/MCP2517FD_ExampleFor_LPC111X.o
+ .debug_macro   0x00000000       0x10 ./src/MCP2517FD_ExampleFor_LPC111X.o
+ .debug_macro   0x00000000      0x12d ./src/MCP2517FD_ExampleFor_LPC111X.o
+ .debug_macro   0x00000000      0x5b2 ./src/MCP2517FD_ExampleFor_LPC111X.o
+ .debug_macro   0x00000000       0x22 ./src/MCP2517FD_ExampleFor_LPC111X.o
+ .debug_macro   0x00000000       0x1c ./src/MCP2517FD_ExampleFor_LPC111X.o
+ .debug_macro   0x00000000       0x2e ./src/MCP2517FD_ExampleFor_LPC111X.o
+ .debug_macro   0x00000000      0x237 ./src/MCP2517FD_ExampleFor_LPC111X.o
+ .debug_macro   0x00000000      0x131 ./src/MCP2517FD_ExampleFor_LPC111X.o
+ .group         0x00000000        0x8 ./src/SPI_Driver.o
+ .group         0x00000000        0x8 ./src/SPI_Driver.o
+ .group         0x00000000        0x8 ./src/SPI_Driver.o
+ .group         0x00000000        0x8 ./src/SPI_Driver.o
+ .group         0x00000000        0x8 ./src/SPI_Driver.o
+ .group         0x00000000        0x8 ./src/SPI_Driver.o
+ .group         0x00000000        0x8 ./src/SPI_Driver.o
+ .group         0x00000000        0x8 ./src/SPI_Driver.o
+ .group         0x00000000        0x8 ./src/SPI_Driver.o
+ .group         0x00000000        0x8 ./src/SPI_Driver.o
+ .text          0x00000000        0x0 ./src/SPI_Driver.o
+ .data          0x00000000        0x0 ./src/SPI_Driver.o
+ .bss           0x00000000        0x0 ./src/SPI_Driver.o
+ .text.SPI_CheckTxFifoEmpty
+                0x00000000       0x3c ./src/SPI_Driver.o
+ .text.SPI_CheckTxFifoNotFull
+                0x00000000       0x3c ./src/SPI_Driver.o
+ .text.SPI_CheckRxFifoNotEmpty
+                0x00000000       0x3c ./src/SPI_Driver.o
+ .text.SPI_CheckRxFifoFull
+                0x00000000       0x3c ./src/SPI_Driver.o
+ .text.SPI_ReturnStatusRegister
+                0x00000000       0x2c ./src/SPI_Driver.o
+ .debug_macro   0x00000000      0x844 ./src/SPI_Driver.o
+ .debug_macro   0x00000000       0x10 ./src/SPI_Driver.o
+ .debug_macro   0x00000000      0x12d ./src/SPI_Driver.o
+ .debug_macro   0x00000000      0x5b2 ./src/SPI_Driver.o
+ .debug_macro   0x00000000       0x22 ./src/SPI_Driver.o
+ .debug_macro   0x00000000       0x1c ./src/SPI_Driver.o
+ .debug_macro   0x00000000       0x2e ./src/SPI_Driver.o
+ .debug_macro   0x00000000      0x237 ./src/SPI_Driver.o
+ .debug_macro   0x00000000      0x131 ./src/SPI_Driver.o
+ .group         0x00000000        0x8 ./src/UART_Driver.o
+ .group         0x00000000        0x8 ./src/UART_Driver.o
+ .group         0x00000000        0x8 ./src/UART_Driver.o
+ .group         0x00000000        0x8 ./src/UART_Driver.o
+ .group         0x00000000        0x8 ./src/UART_Driver.o
+ .group         0x00000000        0x8 ./src/UART_Driver.o
+ .group         0x00000000        0x8 ./src/UART_Driver.o
+ .group         0x00000000        0x8 ./src/UART_Driver.o
+ .group         0x00000000        0x8 ./src/UART_Driver.o
+ .group         0x00000000        0x8 ./src/UART_Driver.o
+ .text          0x00000000        0x0 ./src/UART_Driver.o
+ .data          0x00000000        0x0 ./src/UART_Driver.o
+ .bss           0x00000000        0x0 ./src/UART_Driver.o
+ .text.NVIC_EnableIRQ
+                0x00000000       0x2c ./src/UART_Driver.o
+ .text.NVIC_DisableIRQ
+                0x00000000       0x30 ./src/UART_Driver.o
+ .bss.AhbClkDivider
+                0x00000000        0x1 ./src/UART_Driver.o
+ .bss.DivisorLatchMSB
+                0x00000000        0x1 ./src/UART_Driver.o
+ .bss.DivisorLatchLSB
+                0x00000000        0x1 ./src/UART_Driver.o
+ .bss.FractionalDivider
+                0x00000000        0x1 ./src/UART_Driver.o
+ .text.UART_GetBaseAddress
+                0x00000000       0x34 ./src/UART_Driver.o
+ .text.UART_SetClockPrescalers
+                0x00000000       0x68 ./src/UART_Driver.o
+ .text.UART_DriverInit
+                0x00000000      0x138 ./src/UART_Driver.o
+ .text.UART_PutByteToTransmitter
+                0x00000000       0x30 ./src/UART_Driver.o
+ .text.UART_ReadByteFromTrasmitter
+                0x00000000       0x28 ./src/UART_Driver.o
+ .text.UART_ReturnStatusRegister
+                0x00000000       0x2c ./src/UART_Driver.o
+ .debug_info    0x00000000      0xd50 ./src/UART_Driver.o
+ .debug_abbrev  0x00000000      0x217 ./src/UART_Driver.o
+ .debug_aranges
+                0x00000000       0x58 ./src/UART_Driver.o
+ .debug_ranges  0x00000000       0x48 ./src/UART_Driver.o
+ .debug_macro   0x00000000       0x8e ./src/UART_Driver.o
+ .debug_macro   0x00000000      0x844 ./src/UART_Driver.o
+ .debug_macro   0x00000000       0x10 ./src/UART_Driver.o
+ .debug_macro   0x00000000      0x12d ./src/UART_Driver.o
+ .debug_macro   0x00000000      0x5b2 ./src/UART_Driver.o
+ .debug_macro   0x00000000       0x22 ./src/UART_Driver.o
+ .debug_macro   0x00000000       0x1c ./src/UART_Driver.o
+ .debug_macro   0x00000000       0x2e ./src/UART_Driver.o
+ .debug_macro   0x00000000      0x237 ./src/UART_Driver.o
+ .debug_macro   0x00000000      0x131 ./src/UART_Driver.o
+ .debug_macro   0x00000000       0x25 ./src/UART_Driver.o
+ .debug_line    0x00000000      0x293 ./src/UART_Driver.o
+ .debug_str     0x00000000     0x5984 ./src/UART_Driver.o
+ .comment       0x00000000       0x6f ./src/UART_Driver.o
+ .debug_frame   0x00000000      0x110 ./src/UART_Driver.o
+ .ARM.attributes
+                0x00000000       0x31 ./src/UART_Driver.o
+ .group         0x00000000        0x8 ./src/cr_startup_lpc11xx.o
+ .text          0x00000000        0x0 ./src/cr_startup_lpc11xx.o
+ .data          0x00000000        0x0 ./src/cr_startup_lpc11xx.o
+ .bss           0x00000000        0x0 ./src/cr_startup_lpc11xx.o
+ .debug_macro   0x00000000      0x844 ./src/cr_startup_lpc11xx.o
+ .group         0x00000000        0x8 ./src/crp.o
+ .group         0x00000000        0x8 ./src/crp.o
+ .text          0x00000000        0x0 ./src/crp.o
+ .data          0x00000000        0x0 ./src/crp.o
+ .bss           0x00000000        0x0 ./src/crp.o
+ .crp           0x00000000        0x4 ./src/crp.o
+ .debug_info    0x00000000       0x3f ./src/crp.o
+ .debug_abbrev  0x00000000       0x36 ./src/crp.o
+ .debug_aranges
+                0x00000000       0x18 ./src/crp.o
+ .debug_macro   0x00000000       0x1a ./src/crp.o
+ .debug_macro   0x00000000      0x844 ./src/crp.o
+ .debug_macro   0x00000000       0x34 ./src/crp.o
+ .debug_line    0x00000000       0x78 ./src/crp.o
+ .debug_str     0x00000000     0x248c ./src/crp.o
+ .comment       0x00000000       0x6f ./src/crp.o
+ .ARM.attributes
+                0x00000000       0x31 ./src/crp.o
+ .group         0x00000000        0x8 ./driver/spi/drv_spi.o
+ .group         0x00000000        0x8 ./driver/spi/drv_spi.o
+ .group         0x00000000        0x8 ./driver/spi/drv_spi.o
+ .group         0x00000000        0x8 ./driver/spi/drv_spi.o
+ .group         0x00000000        0x8 ./driver/spi/drv_spi.o
+ .group         0x00000000        0x8 ./driver/spi/drv_spi.o
+ .group         0x00000000        0x8 ./driver/spi/drv_spi.o
+ .group         0x00000000        0x8 ./driver/spi/drv_spi.o
+ .group         0x00000000        0x8 ./driver/spi/drv_spi.o
+ .group         0x00000000        0x8 ./driver/spi/drv_spi.o
+ .group         0x00000000        0x8 ./driver/spi/drv_spi.o
+ .text          0x00000000        0x0 ./driver/spi/drv_spi.o
+ .data          0x00000000        0x0 ./driver/spi/drv_spi.o
+ .bss           0x00000000        0x0 ./driver/spi/drv_spi.o
+ .debug_macro   0x00000000      0x844 ./driver/spi/drv_spi.o
+ .debug_macro   0x00000000       0x10 ./driver/spi/drv_spi.o
+ .debug_macro   0x00000000      0x12d ./driver/spi/drv_spi.o
+ .debug_macro   0x00000000      0x5b2 ./driver/spi/drv_spi.o
+ .debug_macro   0x00000000       0x22 ./driver/spi/drv_spi.o
+ .debug_macro   0x00000000       0x1c ./driver/spi/drv_spi.o
+ .debug_macro   0x00000000       0x2e ./driver/spi/drv_spi.o
+ .debug_macro   0x00000000      0x237 ./driver/spi/drv_spi.o
+ .debug_macro   0x00000000      0x131 ./driver/spi/drv_spi.o
+ .debug_macro   0x00000000       0x16 ./driver/spi/drv_spi.o
+ .group         0x00000000        0x8 ./driver/canfdspi/drv_canfdspi_api.o
+ .group         0x00000000        0x8 ./driver/canfdspi/drv_canfdspi_api.o
+ .group         0x00000000        0x8 ./driver/canfdspi/drv_canfdspi_api.o
+ .group         0x00000000        0x8 ./driver/canfdspi/drv_canfdspi_api.o
+ .group         0x00000000        0x8 ./driver/canfdspi/drv_canfdspi_api.o
+ .group         0x00000000        0x8 ./driver/canfdspi/drv_canfdspi_api.o
+ .group         0x00000000        0x8 ./driver/canfdspi/drv_canfdspi_api.o
+ .group         0x00000000        0x8 ./driver/canfdspi/drv_canfdspi_api.o
+ .group         0x00000000        0x8 ./driver/canfdspi/drv_canfdspi_api.o
+ .group         0x00000000        0x8 ./driver/canfdspi/drv_canfdspi_api.o
+ .text          0x00000000        0x0 ./driver/canfdspi/drv_canfdspi_api.o
+ .data          0x00000000        0x0 ./driver/canfdspi/drv_canfdspi_api.o
+ .bss           0x00000000        0x0 ./driver/canfdspi/drv_canfdspi_api.o
+ .rodata.canControlResetValues
+                0x00000000       0x50 ./driver/canfdspi/drv_canfdspi_api.o
+ .rodata.canFifoResetValues
+                0x00000000        0xc ./driver/canfdspi/drv_canfdspi_api.o
+ .rodata.canFilterControlResetValue
+                0x00000000        0x4 ./driver/canfdspi/drv_canfdspi_api.o
+ .rodata.canFilterObjectResetValues
+                0x00000000        0x8 ./driver/canfdspi/drv_canfdspi_api.o
+ .rodata.mcp25xxfdControlResetValues
+                0x00000000       0x14 ./driver/canfdspi/drv_canfdspi_api.o
+ .rodata.BitReverseTable256
+                0x00000000      0x100 ./driver/canfdspi/drv_canfdspi_api.o
+ .rodata.crc16_table
+                0x00000000      0x200 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_WriteByteSafe
+                0x00000000       0xc4 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_WriteWordSafe
+                0x00000000       0xf0 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_ReadByteArrayWithCRC
+                0x00000000      0x1cc ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_WriteByteArrayWithCRC
+                0x00000000      0x148 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_WriteWordArray
+                0x00000000      0x11c ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_OperationModeGet
+                0x00000000       0xdc ./driver/canfdspi/drv_canfdspi_api.o
+ .rodata.DRV_CANFDSPI_OperationModeGet
+                0x00000000       0x20 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_LowPowerModeEnable
+                0x00000000       0x34 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_LowPowerModeDisable
+                0x00000000       0x34 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_TransmitQueueConfigure
+                0x00000000       0xec ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_TransmitQueueConfigureObjectReset
+                0x00000000       0xa8 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_TransmitChannelFlush
+                0x00000000       0x84 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_TransmitChannelStatusGet
+                0x00000000       0xbc ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_TransmitChannelReset
+                0x00000000       0x2c ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_TransmitRequestSet
+                0x00000000       0x40 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_TransmitRequestGet
+                0x00000000       0x3c ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_TransmitChannelAbort
+                0x00000000       0x74 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_TransmitAbortAll
+                0x00000000       0x8c ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_TransmitBandWidthSharingSet
+                0x00000000       0xb8 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_FilterEnable
+                0x00000000       0xa8 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_FilterDisable
+                0x00000000       0xa4 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_DeviceNetFilterCountSet
+                0x00000000       0xb0 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_ReceiveChannelStatusGet
+                0x00000000       0x84 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_ReceiveChannelReset
+                0x00000000       0x74 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_TefStatusGet
+                0x00000000       0x78 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_TefMessageGet
+                0x00000000      0x1e4 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_TefReset
+                0x00000000       0x64 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_TefUpdate
+                0x00000000       0x64 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_TefConfigure
+                0x00000000       0x88 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_TefConfigureObjectReset
+                0x00000000       0x60 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_ModuleEventGet
+                0x00000000       0x68 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_ModuleEventDisable
+                0x00000000       0xc4 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_ModuleEventClear
+                0x00000000       0x9c ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_ModuleEventRxCodeGet
+                0x00000000       0x94 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_ModuleEventTxCodeGet
+                0x00000000       0x94 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_ModuleEventFilterHitGet
+                0x00000000       0x78 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_ModuleEventIcodeGet
+                0x00000000       0x9c ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_TransmitEventGet
+                0x00000000       0x3c ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_TransmitEventAttemptGet
+                0x00000000       0x3c ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_TransmitChannelIndexGet
+                0x00000000       0x8c ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_TransmitChannelEventEnable
+                0x00000000       0xd4 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_TransmitChannelEventDisable
+                0x00000000       0xd8 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_TransmitChannelEventAttemptClear
+                0x00000000       0xbc ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_ReceiveEventGet
+                0x00000000       0x3c ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_ReceiveEventOverflowGet
+                0x00000000       0x3c ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_ReceiveChannelIndexGet
+                0x00000000       0x30 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_ReceiveChannelEventDisable
+                0x00000000       0xe8 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_ReceiveChannelEventOverflowClear
+                0x00000000       0xc8 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_TefEventGet
+                0x00000000       0x78 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_TefEventEnable
+                0x00000000       0xbc ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_TefEventDisable
+                0x00000000       0xc0 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_TefEventOverflowClear
+                0x00000000       0xa8 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_ErrorCountTransmitGet
+                0x00000000       0x50 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_ErrorCountReceiveGet
+                0x00000000       0x50 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_ErrorStateGet
+                0x00000000       0x7c ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_BusDiagnosticsGet
+                0x00000000       0x98 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_BusDiagnosticsClear
+                0x00000000       0x64 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_EccDisable
+                0x00000000       0x94 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_EccEventGet
+                0x00000000       0x80 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_EccParitySet
+                0x00000000       0x48 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_EccParityGet
+                0x00000000       0x40 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_EccErrorAddressGet
+                0x00000000       0x64 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_EccEventEnable
+                0x00000000       0xc4 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_EccEventDisable
+                0x00000000       0xc8 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_EccEventClear
+                0x00000000       0xc8 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_CrcEventEnable
+                0x00000000       0xbc ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_CrcEventDisable
+                0x00000000       0xc0 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_CrcEventClear
+                0x00000000       0xc0 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_CrcEventGet
+                0x00000000       0x78 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_CrcValueGet
+                0x00000000       0x40 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_TimeStampEnable
+                0x00000000       0x94 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_TimeStampDisable
+                0x00000000       0x94 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_TimeStampGet
+                0x00000000       0x3c ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_TimeStampSet
+                0x00000000       0x3c ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_TimeStampModeConfigure
+                0x00000000       0xb8 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_TimeStampPrescalerSet
+                0x00000000       0x44 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_OscillatorEnable
+                0x00000000       0x98 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_OscillatorControlSet
+                0x00000000       0xd0 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_OscillatorControlObjectReset
+                0x00000000       0xa0 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_OscillatorStatusGet
+                0x00000000       0xcc ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_GpioModeConfigure
+                0x00000000       0xf4 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_GpioDirectionConfigure
+                0x00000000       0xf0 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_GpioStandbyControlEnable
+                0x00000000       0xa8 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_GpioStandbyControlDisable
+                0x00000000       0xa8 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_GpioInterruptPinsOpenDrainConfigure
+                0x00000000       0xc4 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_GpioTransmitPinOpenDrainConfigure
+                0x00000000       0xc4 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_GpioPinSet
+                0x00000000      0x10c ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_GpioPinRead
+                0x00000000       0xb0 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_GpioClockOutputConfigure
+                0x00000000       0xc4 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_FifoIndexGet
+                0x00000000       0x9c ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_CalculateCRC16
+                0x00000000       0x78 ./driver/canfdspi/drv_canfdspi_api.o
+ .text.DRV_CANFDSPI_DataBytesToDlc
+                0x00000000       0xc4 ./driver/canfdspi/drv_canfdspi_api.o
+ .debug_macro   0x00000000      0x844 ./driver/canfdspi/drv_canfdspi_api.o
+ .debug_macro   0x00000000       0x10 ./driver/canfdspi/drv_canfdspi_api.o
+ .debug_macro   0x00000000      0x12d ./driver/canfdspi/drv_canfdspi_api.o
+ .debug_macro   0x00000000      0x5b2 ./driver/canfdspi/drv_canfdspi_api.o
+ .debug_macro   0x00000000       0x22 ./driver/canfdspi/drv_canfdspi_api.o
+ .debug_macro   0x00000000       0x16 ./driver/canfdspi/drv_canfdspi_api.o
+ .debug_macro   0x00000000       0x1c ./driver/canfdspi/drv_canfdspi_api.o
+ .debug_macro   0x00000000       0x22 ./driver/canfdspi/drv_canfdspi_api.o
+ .debug_macro   0x00000000      0x127 ./driver/canfdspi/drv_canfdspi_api.o
+ .debug_macro   0x00000000       0x22 ./driver/canfdspi/drv_canfdspi_api.o
+ .group         0x00000000        0x8 D:\NXP_workspace\CMSISv2p00_LPC11xx\Debug\libCMSISv2p00_LPC11xx.a(system_LPC11xx.o)
+ .group         0x00000000        0x8 D:\NXP_workspace\CMSISv2p00_LPC11xx\Debug\libCMSISv2p00_LPC11xx.a(system_LPC11xx.o)
+ .group         0x00000000        0x8 D:\NXP_workspace\CMSISv2p00_LPC11xx\Debug\libCMSISv2p00_LPC11xx.a(system_LPC11xx.o)
+ .group         0x00000000        0x8 D:\NXP_workspace\CMSISv2p00_LPC11xx\Debug\libCMSISv2p00_LPC11xx.a(system_LPC11xx.o)
+ .group         0x00000000        0x8 D:\NXP_workspace\CMSISv2p00_LPC11xx\Debug\libCMSISv2p00_LPC11xx.a(system_LPC11xx.o)
+ .group         0x00000000        0x8 D:\NXP_workspace\CMSISv2p00_LPC11xx\Debug\libCMSISv2p00_LPC11xx.a(system_LPC11xx.o)
+ .group         0x00000000        0x8 D:\NXP_workspace\CMSISv2p00_LPC11xx\Debug\libCMSISv2p00_LPC11xx.a(system_LPC11xx.o)
+ .group         0x00000000        0x8 D:\NXP_workspace\CMSISv2p00_LPC11xx\Debug\libCMSISv2p00_LPC11xx.a(system_LPC11xx.o)
+ .text          0x00000000        0x0 D:\NXP_workspace\CMSISv2p00_LPC11xx\Debug\libCMSISv2p00_LPC11xx.a(system_LPC11xx.o)
+ .data          0x00000000        0x0 D:\NXP_workspace\CMSISv2p00_LPC11xx\Debug\libCMSISv2p00_LPC11xx.a(system_LPC11xx.o)
+ .bss           0x00000000        0x0 D:\NXP_workspace\CMSISv2p00_LPC11xx\Debug\libCMSISv2p00_LPC11xx.a(system_LPC11xx.o)
+ .text.SystemCoreClockUpdate
+                0x00000000       0xa0 D:\NXP_workspace\CMSISv2p00_LPC11xx\Debug\libCMSISv2p00_LPC11xx.a(system_LPC11xx.o)
+ .rodata.CSWTCH.7
+                0x00000000       0x40 D:\NXP_workspace\CMSISv2p00_LPC11xx\Debug\libCMSISv2p00_LPC11xx.a(system_LPC11xx.o)
+ .data.SystemCoreClock
+                0x00000000        0x4 D:\NXP_workspace\CMSISv2p00_LPC11xx\Debug\libCMSISv2p00_LPC11xx.a(system_LPC11xx.o)
+ .debug_macro   0x00000000       0x10 D:\NXP_workspace\CMSISv2p00_LPC11xx\Debug\libCMSISv2p00_LPC11xx.a(system_LPC11xx.o)
+ .debug_macro   0x00000000       0x1c D:\NXP_workspace\CMSISv2p00_LPC11xx\Debug\libCMSISv2p00_LPC11xx.a(system_LPC11xx.o)
+ .debug_macro   0x00000000       0x2e D:\NXP_workspace\CMSISv2p00_LPC11xx\Debug\libCMSISv2p00_LPC11xx.a(system_LPC11xx.o)
+ .debug_macro   0x00000000      0x237 D:\NXP_workspace\CMSISv2p00_LPC11xx\Debug\libCMSISv2p00_LPC11xx.a(system_LPC11xx.o)
+ .debug_macro   0x00000000      0x131 D:\NXP_workspace\CMSISv2p00_LPC11xx\Debug\libCMSISv2p00_LPC11xx.a(system_LPC11xx.o)
+ .text          0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memcpy.o)
+ .data          0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memcpy.o)
+ .bss           0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memcpy.o)
+ .text.memcpy   0x00000000        0x8 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memcpy.o)
+ .comment       0x00000000       0x6f d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memcpy.o)
+ .ARM.attributes
+                0x00000000       0x31 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memcpy.o)
+ .text          0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__weak__main.o)
+ .data          0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__weak__main.o)
+ .bss           0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__weak__main.o)
+ .text          0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdlib.o)
+ .data          0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdlib.o)
+ .bss           0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdlib.o)
+ .text.__rand   0x00000000       0x20 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdlib.o)
+ .text.__srand  0x00000000        0xc d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdlib.o)
+ .text.srand    0x00000000       0x3c d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdlib.o)
+ .text._exit_init
+                0x00000000        0xc d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdlib.o)
+ .text.atexit   0x00000000       0x24 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdlib.o)
+ .text.exit     0x00000000       0x2c d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdlib.o)
+ .text.abort    0x00000000       0x10 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdlib.o)
+ .text.abs      0x00000000        0x8 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdlib.o)
+ .text.labs     0x00000000        0x8 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdlib.o)
+ .text.div      0x00000000       0x20 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdlib.o)
+ .text.ldiv     0x00000000       0x20 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdlib.o)
+ .bss._exitvector
+                0x00000000       0x84 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdlib.o)
+ .data.next     0x00000000        0x4 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdlib.o)
+ .bss._number_of_exit_functions
+                0x00000000        0x4 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdlib.o)
+ .text          0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(initio.o)
+ .data          0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(initio.o)
+ .bss           0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(initio.o)
+ .text._initio  0x00000000       0xa8 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(initio.o)
+ .text._terminateio
+                0x00000000       0x44 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(initio.o)
+ .bss._extra    0x00000000        0x4 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(initio.o)
+ .rodata.str1.1
+                0x00000000        0x4 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(initio.o)
+ .comment       0x00000000       0x6f d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(initio.o)
+ .ARM.attributes
+                0x00000000       0x31 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(initio.o)
+ .text          0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(raise.o)
+ .data          0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(raise.o)
+ .bss           0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(raise.o)
+ .text.raise    0x00000000        0x6 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(raise.o)
+ .comment       0x00000000       0x6f d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(raise.o)
+ .ARM.attributes
+                0x00000000       0x31 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(raise.o)
+ .text          0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(setvbuf.o)
+ .data          0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(setvbuf.o)
+ .bss           0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(setvbuf.o)
+ .text.setvbuf  0x00000000       0x48 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(setvbuf.o)
+ .comment       0x00000000       0x6f d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(setvbuf.o)
+ .ARM.attributes
+                0x00000000       0x31 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(setvbuf.o)
+ .text          0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdio.o)
+ .data          0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdio.o)
+ .bss           0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdio.o)
+ .text.getc     0x00000000       0x1c d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdio.o)
+ .text.fgetc    0x00000000        0x8 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdio.o)
+ .text.getchar  0x00000000       0x24 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdio.o)
+ .text.putc     0x00000000       0x1e d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdio.o)
+ .text.fputc    0x00000000        0x8 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdio.o)
+ .text.putchar  0x00000000       0x28 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdio.o)
+ .text.feof     0x00000000        0x8 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdio.o)
+ .text.ferror   0x00000000        0x8 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdio.o)
+ .text.clearerr
+                0x00000000       0x10 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdio.o)
+ .bss.__Ciob    0x00000000      0x140 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdio.o)
+ .comment       0x00000000       0x6f d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdio.o)
+ .ARM.attributes
+                0x00000000       0x31 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdio.o)
+ .text          0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memset.o)
+ .data          0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memset.o)
+ .bss           0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memset.o)
+ .text.memset   0x00000000        0x8 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memset.o)
+ .comment       0x00000000       0x6f d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memset.o)
+ .ARM.attributes
+                0x00000000       0x31 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memset.o)
+ .text          0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__fillbuf.o)
+ .data          0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__fillbuf.o)
+ .bss           0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__fillbuf.o)
+ .text._Csys_read_
+                0x00000000       0x22 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__fillbuf.o)
+ .text.__filbuf
+                0x00000000      0x194 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__fillbuf.o)
+ .text._fillb2  0x00000000       0x1c d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__fillbuf.o)
+ .comment       0x00000000       0x6f d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__fillbuf.o)
+ .ARM.attributes
+                0x00000000       0x31 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__fillbuf.o)
+ .text          0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_deferredlazyseek.o)
+ .data          0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_deferredlazyseek.o)
+ .bss           0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_deferredlazyseek.o)
+ .text._deferredlazyseek
+                0x00000000       0x44 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_deferredlazyseek.o)
+ .text.__flsbuf
+                0x00000000      0x150 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_deferredlazyseek.o)
+ .comment       0x00000000       0x6f d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_deferredlazyseek.o)
+ .ARM.attributes
+                0x00000000       0x31 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_deferredlazyseek.o)
+ .text          0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_fdopen.o)
+ .data          0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_fdopen.o)
+ .bss           0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_fdopen.o)
+ .text._fdopen  0x00000000       0x74 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_fdopen.o)
+ .comment       0x00000000       0x6f d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_fdopen.o)
+ .ARM.attributes
+                0x00000000       0x31 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_fdopen.o)
+ .text          0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_fflush.o)
+ .data          0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_fflush.o)
+ .bss           0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_fflush.o)
+ .text._fflush  0x00000000       0x64 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_fflush.o)
+ .comment       0x00000000       0x6f d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_fflush.o)
+ .ARM.attributes
+                0x00000000       0x31 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_fflush.o)
+ .text          0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_writebuf.o)
+ .data          0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_writebuf.o)
+ .bss           0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_writebuf.o)
+ .text._Cwritebuf
+                0x00000000       0x6c d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_writebuf.o)
+ .comment       0x00000000       0x6f d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_writebuf.o)
+ .ARM.attributes
+                0x00000000       0x31 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_writebuf.o)
+ .text          0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(alloc.o)
+ .data          0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(alloc.o)
+ .bss           0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(alloc.o)
+ .text.malloc   0x00000000       0xcc d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(alloc.o)
+ .text.free     0x00000000       0x2e d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(alloc.o)
+ .text.calloc   0x00000000       0x50 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(alloc.o)
+ .text._Csys_alloc
+                0x00000000       0x20 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(alloc.o)
+ .text.realloc  0x00000000       0x26 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(alloc.o)
+ .rodata.str1.1
+                0x00000000       0x18 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(alloc.o)
+ .comment       0x00000000       0x6f d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(alloc.o)
+ .ARM.attributes
+                0x00000000       0x31 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(alloc.o)
+ .text          0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(fclose.o)
+ .data          0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(fclose.o)
+ .bss           0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(fclose.o)
+ .text.fclose   0x00000000       0x70 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(fclose.o)
+ .comment       0x00000000       0x6f d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(fclose.o)
+ .ARM.attributes
+                0x00000000       0x31 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(fclose.o)
+ .text          0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(fflush.o)
+ .data          0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(fflush.o)
+ .bss           0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(fflush.o)
+ .text.fflush   0x00000000       0x34 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(fflush.o)
+ .comment       0x00000000       0x6f d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(fflush.o)
+ .ARM.attributes
+                0x00000000       0x31 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(fflush.o)
+ .text          0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(fseek.o)
+ .data          0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(fseek.o)
+ .bss           0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(fseek.o)
+ .text.fseek    0x00000000      0x100 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(fseek.o)
+ .comment       0x00000000       0x6f d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(fseek.o)
+ .ARM.attributes
+                0x00000000       0x31 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(fseek.o)
+ .text          0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(ftell.o)
+ .data          0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(ftell.o)
+ .bss           0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(ftell.o)
+ .text.ftell    0x00000000       0x4c d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(ftell.o)
+ .comment       0x00000000       0x6f d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(ftell.o)
+ .ARM.attributes
+                0x00000000       0x31 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(ftell.o)
+ .text          0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(remove.o)
+ .data          0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(remove.o)
+ .bss           0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(remove.o)
+ .text.remove   0x00000000       0x12 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(remove.o)
+ .text.rename   0x00000000       0x26 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(remove.o)
+ .comment       0x00000000       0x6f d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(remove.o)
+ .ARM.attributes
+                0x00000000       0x31 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(remove.o)
+ .text          0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(strlen.o)
+ .data          0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(strlen.o)
+ .bss           0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(strlen.o)
+ .text.strlen   0x00000000       0x54 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(strlen.o)
+ .comment       0x00000000       0x6f d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(strlen.o)
+ .ARM.attributes
+                0x00000000       0x31 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(strlen.o)
+ .text          0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__init_alloc.o)
+ .data          0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__init_alloc.o)
+ .bss           0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__init_alloc.o)
+ .text._init_alloc
+                0x00000000       0x14 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__init_alloc.o)
+ .bss.__heaps   0x00000000        0x4 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__init_alloc.o)
+ .bss.__end_of_heap
+                0x00000000        0x4 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__init_alloc.o)
+ .comment       0x00000000       0x6f d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__init_alloc.o)
+ .ARM.attributes
+                0x00000000       0x31 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__init_alloc.o)
+ .text          0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_cr_sbrk.o)
+ .data          0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_cr_sbrk.o)
+ .bss           0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_cr_sbrk.o)
+ .text._sbrk    0x00000000       0x40 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_cr_sbrk.o)
+ .comment       0x00000000       0x6f d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_cr_sbrk.o)
+ .ARM.attributes
+                0x00000000       0x31 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_cr_sbrk.o)
+ .text          0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_do_fflush.o)
+ .data          0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_do_fflush.o)
+ .bss           0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_do_fflush.o)
+ .text._do_fflush
+                0x00000000       0x48 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_do_fflush.o)
+ .comment       0x00000000       0x6f d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_do_fflush.o)
+ .ARM.attributes
+                0x00000000       0x31 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_do_fflush.o)
+ .text          0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(errno.o)
+ .data          0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(errno.o)
+ .bss           0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(errno.o)
+ .bss.errno     0x00000000        0x4 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(errno.o)
+ .comment       0x00000000       0x6f d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(errno.o)
+ .ARM.attributes
+                0x00000000       0x31 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(errno.o)
+ .text          0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_cr_check_heap.o)
+ .data          0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_cr_check_heap.o)
+ .bss           0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_cr_check_heap.o)
+ .text.__check_heap_overflow
+                0x00000000       0x14 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_cr_check_heap.o)
+ .comment       0x00000000       0x6f d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_cr_check_heap.o)
+ .ARM.attributes
+                0x00000000       0x31 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_cr_check_heap.o)
+ .text          0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(division_32.o)
+ .data          0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(division_32.o)
+ .bss           0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(division_32.o)
+ .text.__aeabi_division_idivmod
+                0x00000000       0x78 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(division_32.o)
+ .ARM.attributes
+                0x00000000       0x21 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(division_32.o)
+ .text          0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(division_idiv0.o)
+ .data          0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(division_idiv0.o)
+ .bss           0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(division_idiv0.o)
+ .text.__aeabi_division_idiv0
+                0x00000000        0x2 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(division_idiv0.o)
+ .ARM.attributes
+                0x00000000       0x21 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(division_idiv0.o)
+ .text          0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(memcpy.o)
+ .data          0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(memcpy.o)
+ .bss           0x00000000        0x0 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memcpy
+                0x00000000       0x2c d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memmove
+                0x00000000       0x1c d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memset_lowlevel
+                0x00000000       0x2a d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memclr
+                0x00000000        0x6 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memset
+                0x00000000        0x8 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(memcpy.o)
+ .ARM.attributes
+                0x00000000       0x21 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(memcpy.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MFlash32         0x00000000         0x00008000         xr
+RamLoc4          0x10000000         0x00001000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./src/GPIO_Driver.o
+LOAD ./src/I2C_Driver.o
+LOAD ./src/MCP2517FD_ExampleFor_LPC111X.o
+LOAD ./src/SPI_Driver.o
+LOAD ./src/UART_Driver.o
+LOAD ./src/cr_startup_lpc11xx.o
+LOAD ./src/crp.o
+LOAD ./driver/spi/drv_spi.o
+LOAD ./driver/canfdspi/drv_canfdspi_api.o
+LOAD D:\NXP_workspace\CMSISv2p00_LPC11xx\Debug\libCMSISv2p00_LPC11xx.a
+START GROUP
+LOAD d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a
+LOAD d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a
+END GROUP
+                0x00000000                __base_MFlash32 = 0x0
+                0x00000000                __base_Flash = 0x0
+                0x00008000                __top_MFlash32 = 0x8000
+                0x00008000                __top_Flash = 0x8000
+                0x10000000                __base_RamLoc4 = 0x10000000
+                0x10000000                __base_RAM = 0x10000000
+                0x10001000                __top_RamLoc4 = 0x10001000
+                0x10001000                __top_RAM = 0x10001000
+
+.text           0x00000000     0x4554
+ FILL mask 0xff
+                0x00000000                __vectors_start__ = ABSOLUTE (.)
+ *(.isr_vector)
+ .isr_vector    0x00000000       0xc0 ./src/cr_startup_lpc11xx.o
+                0x00000000                g_pfnVectors
+                0x000000c0                . = ALIGN (0x4)
+                0x000000c0                __section_table_start = .
+                0x000000c0                __data_section_table = .
+                0x000000c0        0x4 LONG 0x4554 LOADADDR (.data)
+                0x000000c4        0x4 LONG 0x10000000 ADDR (.data)
+                0x000000c8        0x4 LONG 0xe4 SIZEOF (.data)
+                0x000000cc                __data_section_table_end = .
+                0x000000cc                __bss_section_table = .
+                0x000000cc        0x4 LONG 0x100000e4 ADDR (.bss)
+                0x000000d0        0x4 LONG 0x188 SIZEOF (.bss)
+                0x000000d4                __bss_section_table_end = .
+                0x000000d4                __section_table_end = .
+ *(.after_vectors*)
+ .after_vectors
+                0x000000d4      0x124 ./src/cr_startup_lpc11xx.o
+                0x000000d4                data_init
+                0x00000114                bss_init
+                0x00000148                ResetISR
+                0x000001c8                NMI_Handler
+                0x000001d0                HardFault_Handler
+                0x000001d8                SVC_Handler
+                0x000001e0                PendSV_Handler
+                0x000001f0                TIMER32_1_IRQHandler
+                0x000001f0                IntDefaultHandler
+                0x000001f0                PIOINT1_IRQHandler
+                0x000001f0                CAN_IRQHandler
+                0x000001f0                TIMER32_0_IRQHandler
+                0x000001f0                UART_IRQHandler
+                0x000001f0                TIMER16_1_IRQHandler
+                0x000001f0                ADC_IRQHandler
+                0x000001f0                SSP1_IRQHandler
+                0x000001f0                PIOINT2_IRQHandler
+                0x000001f0                BOD_IRQHandler
+                0x000001f0                WAKEUP_IRQHandler
+                0x000001f0                PIOINT0_IRQHandler
+                0x000001f0                WDT_IRQHandler
+                0x000001f0                TIMER16_0_IRQHandler
+                0x000001f0                SSP0_IRQHandler
+                0x000001f0                PIOINT3_IRQHandler
+ *(.text*)
+ .text.GPIO_GetBaseAddress
+                0x000001f8       0x60 ./src/GPIO_Driver.o
+ .text.GPIO_Init
+                0x00000258        0xc ./src/GPIO_Driver.o
+                0x00000258                GPIO_Init
+ .text.GPIO_Direction
+                0x00000264       0x6c ./src/GPIO_Driver.o
+                0x00000264                GPIO_Direction
+ .text.GPIO_SetState
+                0x000002d0       0x50 ./src/GPIO_Driver.o
+                0x000002d0                GPIO_SetState
+ .text.I2C_GetBaseAddress
+                0x00000320       0x30 ./src/I2C_Driver.o
+ .text.I2C_IRQHandler
+                0x00000350       0x10 ./src/I2C_Driver.o
+                0x00000350                I2C_IRQHandler
+ .text.I2C_InterruptProccess
+                0x00000360      0x32c ./src/I2C_Driver.o
+                0x00000360                I2C_InterruptProccess
+ .text.InitCanFdChip
+                0x0000068c      0x164 ./src/MCP2517FD_ExampleFor_LPC111X.o
+                0x0000068c                InitCanFdChip
+ .text.TestCanChipRamAccess
+                0x000007f0       0xf8 ./src/MCP2517FD_ExampleFor_LPC111X.o
+                0x000007f0                TestCanChipRamAccess
+ .text.ReceiveCanMessage
+                0x000008e8       0x50 ./src/MCP2517FD_ExampleFor_LPC111X.o
+                0x000008e8                ReceiveCanMessage
+ .text.TransmitCanMessage
+                0x00000938      0x140 ./src/MCP2517FD_ExampleFor_LPC111X.o
+                0x00000938                TransmitCanMessage
+ .text.SysTick_Handler
+                0x00000a78       0x30 ./src/MCP2517FD_ExampleFor_LPC111X.o
+                0x00000a78                SysTick_Handler
+ .text.main     0x00000aa8       0x54 ./src/MCP2517FD_ExampleFor_LPC111X.o
+                0x00000aa8                main
+ .text.SPI_GetBaseAddress
+                0x00000afc       0x44 ./src/SPI_Driver.o
+ .text.SPI_SetClockPrescalers
+                0x00000b40       0x6c ./src/SPI_Driver.o
+ .text.SPI_DriverInit
+                0x00000bac      0x180 ./src/SPI_Driver.o
+                0x00000bac                SPI_DriverInit
+ .text.SPI_PutByteToTransmitter
+                0x00000d2c       0x30 ./src/SPI_Driver.o
+                0x00000d2c                SPI_PutByteToTransmitter
+ .text.SPI_ReadByteFromTrasmitter
+                0x00000d5c       0x28 ./src/SPI_Driver.o
+                0x00000d5c                SPI_ReadByteFromTrasmitter
+ .text.SPI_CheckBusyFlag
+                0x00000d84       0x3c ./src/SPI_Driver.o
+                0x00000d84                SPI_CheckBusyFlag
+ .text.DRV_SPI_Initialize
+                0x00000dc0       0x10 ./driver/spi/drv_spi.o
+                0x00000dc0                DRV_SPI_Initialize
+ .text.DRV_SPI_TransferData
+                0x00000dd0       0x38 ./driver/spi/drv_spi.o
+                0x00000dd0                DRV_SPI_TransferData
+ .text.spi_master_init
+                0x00000e08       0x2c ./driver/spi/drv_spi.o
+                0x00000e08                spi_master_init
+ .text.spi_master_transfer
+                0x00000e34      0x120 ./driver/spi/drv_spi.o
+                0x00000e34                spi_master_transfer
+ .text.DRV_CANFDSPI_Reset
+                0x00000f54       0x5c ./driver/canfdspi/drv_canfdspi_api.o
+                0x00000f54                DRV_CANFDSPI_Reset
+ .text.DRV_CANFDSPI_ReadByte
+                0x00000fb0       0x88 ./driver/canfdspi/drv_canfdspi_api.o
+                0x00000fb0                DRV_CANFDSPI_ReadByte
+ .text.DRV_CANFDSPI_WriteByte
+                0x00001038       0x8c ./driver/canfdspi/drv_canfdspi_api.o
+                0x00001038                DRV_CANFDSPI_WriteByte
+ .text.DRV_CANFDSPI_ReadWord
+                0x000010c4       0xe0 ./driver/canfdspi/drv_canfdspi_api.o
+                0x000010c4                DRV_CANFDSPI_ReadWord
+ .text.DRV_CANFDSPI_WriteWord
+                0x000011a4       0xb8 ./driver/canfdspi/drv_canfdspi_api.o
+                0x000011a4                DRV_CANFDSPI_WriteWord
+ .text.DRV_CANFDSPI_ReadHalfWord
+                0x0000125c       0xe4 ./driver/canfdspi/drv_canfdspi_api.o
+                0x0000125c                DRV_CANFDSPI_ReadHalfWord
+ .text.DRV_CANFDSPI_WriteHalfWord
+                0x00001340       0xc4 ./driver/canfdspi/drv_canfdspi_api.o
+                0x00001340                DRV_CANFDSPI_WriteHalfWord
+ .text.DRV_CANFDSPI_ReadByteArray
+                0x00001404      0x108 ./driver/canfdspi/drv_canfdspi_api.o
+                0x00001404                DRV_CANFDSPI_ReadByteArray
+ .text.DRV_CANFDSPI_WriteByteArray
+                0x0000150c       0xd4 ./driver/canfdspi/drv_canfdspi_api.o
+                0x0000150c                DRV_CANFDSPI_WriteByteArray
+ .text.DRV_CANFDSPI_ReadWordArray
+                0x000015e0      0x16c ./driver/canfdspi/drv_canfdspi_api.o
+                0x000015e0                DRV_CANFDSPI_ReadWordArray
+ .text.DRV_CANFDSPI_Configure
+                0x0000174c      0x1ec ./driver/canfdspi/drv_canfdspi_api.o
+                0x0000174c                DRV_CANFDSPI_Configure
+ .text.DRV_CANFDSPI_ConfigureObjectReset
+                0x00001938      0x1ac ./driver/canfdspi/drv_canfdspi_api.o
+                0x00001938                DRV_CANFDSPI_ConfigureObjectReset
+ .text.DRV_CANFDSPI_OperationModeSelect
+                0x00001ae4       0xb0 ./driver/canfdspi/drv_canfdspi_api.o
+                0x00001ae4                DRV_CANFDSPI_OperationModeSelect
+ .text.DRV_CANFDSPI_TransmitChannelConfigure
+                0x00001b94      0x120 ./driver/canfdspi/drv_canfdspi_api.o
+                0x00001b94                DRV_CANFDSPI_TransmitChannelConfigure
+ .text.DRV_CANFDSPI_TransmitChannelConfigureObjectReset
+                0x00001cb4       0xbc ./driver/canfdspi/drv_canfdspi_api.o
+                0x00001cb4                DRV_CANFDSPI_TransmitChannelConfigureObjectReset
+ .text.DRV_CANFDSPI_TransmitChannelLoad
+                0x00001d70      0x284 ./driver/canfdspi/drv_canfdspi_api.o
+                0x00001d70                DRV_CANFDSPI_TransmitChannelLoad
+ .text.DRV_CANFDSPI_TransmitChannelUpdate
+                0x00001ff4       0xa0 ./driver/canfdspi/drv_canfdspi_api.o
+                0x00001ff4                DRV_CANFDSPI_TransmitChannelUpdate
+ .text.DRV_CANFDSPI_FilterObjectConfigure
+                0x00002094       0x60 ./driver/canfdspi/drv_canfdspi_api.o
+                0x00002094                DRV_CANFDSPI_FilterObjectConfigure
+ .text.DRV_CANFDSPI_FilterMaskConfigure
+                0x000020f4       0x64 ./driver/canfdspi/drv_canfdspi_api.o
+                0x000020f4                DRV_CANFDSPI_FilterMaskConfigure
+ .text.DRV_CANFDSPI_FilterToFifoLink
+                0x00002158       0xb4 ./driver/canfdspi/drv_canfdspi_api.o
+                0x00002158                DRV_CANFDSPI_FilterToFifoLink
+ .text.DRV_CANFDSPI_ReceiveChannelConfigure
+                0x0000220c       0xe8 ./driver/canfdspi/drv_canfdspi_api.o
+                0x0000220c                DRV_CANFDSPI_ReceiveChannelConfigure
+ .text.DRV_CANFDSPI_ReceiveChannelConfigureObjectReset
+                0x000022f4       0x88 ./driver/canfdspi/drv_canfdspi_api.o
+                0x000022f4                DRV_CANFDSPI_ReceiveChannelConfigureObjectReset
+ .text.DRV_CANFDSPI_ReceiveMessageGet
+                0x0000237c      0x2e4 ./driver/canfdspi/drv_canfdspi_api.o
+                0x0000237c                DRV_CANFDSPI_ReceiveMessageGet
+ .text.DRV_CANFDSPI_ReceiveChannelUpdate
+                0x00002660       0x74 ./driver/canfdspi/drv_canfdspi_api.o
+                0x00002660                DRV_CANFDSPI_ReceiveChannelUpdate
+ .text.DRV_CANFDSPI_ModuleEventEnable
+                0x000026d4       0xc0 ./driver/canfdspi/drv_canfdspi_api.o
+                0x000026d4                DRV_CANFDSPI_ModuleEventEnable
+ .text.DRV_CANFDSPI_TransmitChannelEventGet
+                0x00002794       0x8c ./driver/canfdspi/drv_canfdspi_api.o
+                0x00002794                DRV_CANFDSPI_TransmitChannelEventGet
+ .text.DRV_CANFDSPI_ReceiveChannelEventGet
+                0x00002820       0x98 ./driver/canfdspi/drv_canfdspi_api.o
+                0x00002820                DRV_CANFDSPI_ReceiveChannelEventGet
+ .text.DRV_CANFDSPI_ReceiveChannelEventEnable
+                0x000028b8       0xe4 ./driver/canfdspi/drv_canfdspi_api.o
+                0x000028b8                DRV_CANFDSPI_ReceiveChannelEventEnable
+ .text.DRV_CANFDSPI_ErrorCountStateGet
+                0x0000299c       0x94 ./driver/canfdspi/drv_canfdspi_api.o
+                0x0000299c                DRV_CANFDSPI_ErrorCountStateGet
+ .text.DRV_CANFDSPI_EccEnable
+                0x00002a30       0x94 ./driver/canfdspi/drv_canfdspi_api.o
+                0x00002a30                DRV_CANFDSPI_EccEnable
+ .text.DRV_CANFDSPI_RamInit
+                0x00002ac4       0xa4 ./driver/canfdspi/drv_canfdspi_api.o
+                0x00002ac4                DRV_CANFDSPI_RamInit
+ .text.DRV_CANFDSPI_BitTimeConfigure
+                0x00002b68      0x138 ./driver/canfdspi/drv_canfdspi_api.o
+                0x00002b68                DRV_CANFDSPI_BitTimeConfigure
+ .text.DRV_CANFDSPI_BitTimeConfigureNominal40MHz
+                0x00002ca0      0x13c ./driver/canfdspi/drv_canfdspi_api.o
+                0x00002ca0                DRV_CANFDSPI_BitTimeConfigureNominal40MHz
+ .text.DRV_CANFDSPI_BitTimeConfigureData40MHz
+                0x00002ddc      0x77c ./driver/canfdspi/drv_canfdspi_api.o
+                0x00002ddc                DRV_CANFDSPI_BitTimeConfigureData40MHz
+ .text.DRV_CANFDSPI_BitTimeConfigureNominal20MHz
+                0x00003558      0x150 ./driver/canfdspi/drv_canfdspi_api.o
+                0x00003558                DRV_CANFDSPI_BitTimeConfigureNominal20MHz
+ .text.DRV_CANFDSPI_BitTimeConfigureData20MHz
+                0x000036a8      0x564 ./driver/canfdspi/drv_canfdspi_api.o
+                0x000036a8                DRV_CANFDSPI_BitTimeConfigureData20MHz
+ .text.DRV_CANFDSPI_BitTimeConfigureNominal10MHz
+                0x00003c0c      0x150 ./driver/canfdspi/drv_canfdspi_api.o
+                0x00003c0c                DRV_CANFDSPI_BitTimeConfigureNominal10MHz
+ .text.DRV_CANFDSPI_BitTimeConfigureData10MHz
+                0x00003d5c      0x39c ./driver/canfdspi/drv_canfdspi_api.o
+                0x00003d5c                DRV_CANFDSPI_BitTimeConfigureData10MHz
+ .text.DRV_CANFDSPI_DlcToDataBytes
+                0x000040f8       0x74 ./driver/canfdspi/drv_canfdspi_api.o
+                0x000040f8                DRV_CANFDSPI_DlcToDataBytes
+ .text.SystemInit
+                0x0000416c       0x90 D:\NXP_workspace\CMSISv2p00_LPC11xx\Debug\libCMSISv2p00_LPC11xx.a(system_LPC11xx.o)
+                0x0000416c                SystemInit
+ .text.__weak_main
+                0x000041fc        0x8 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__weak__main.o)
+                0x000041fc                __weak_main
+                0x000041fc                __main
+ .text.rand     0x00004204       0x40 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdlib.o)
+                0x00004204                rand
+ *(.rodata .rodata.* .constdata .constdata.*)
+ .rodata.I2C_InterruptProccess
+                0x00004244      0x144 ./src/I2C_Driver.o
+ .rodata.DRV_CANFDSPI_BitTimeConfigureNominal40MHz
+                0x00004388       0x48 ./driver/canfdspi/drv_canfdspi_api.o
+ .rodata.DRV_CANFDSPI_BitTimeConfigureData40MHz
+                0x000043d0       0x48 ./driver/canfdspi/drv_canfdspi_api.o
+ .rodata.DRV_CANFDSPI_BitTimeConfigureNominal20MHz
+                0x00004418       0x48 ./driver/canfdspi/drv_canfdspi_api.o
+ .rodata.DRV_CANFDSPI_BitTimeConfigureData20MHz
+                0x00004460       0x48 ./driver/canfdspi/drv_canfdspi_api.o
+ .rodata.DRV_CANFDSPI_BitTimeConfigureNominal10MHz
+                0x000044a8       0x48 ./driver/canfdspi/drv_canfdspi_api.o
+ .rodata.DRV_CANFDSPI_BitTimeConfigureData10MHz
+                0x000044f0       0x48 ./driver/canfdspi/drv_canfdspi_api.o
+ .rodata.DRV_CANFDSPI_DlcToDataBytes
+                0x00004538       0x1c ./driver/canfdspi/drv_canfdspi_api.o
+                0x00004554                . = ALIGN (0x4)
+
+.glue_7         0x00004554        0x0
+ .glue_7        0x00004554        0x0 linker stubs
+
+.glue_7t        0x00004554        0x0
+ .glue_7t       0x00004554        0x0 linker stubs
+
+.vfp11_veneer   0x00004554        0x0
+ .vfp11_veneer  0x00004554        0x0 linker stubs
+
+.v4_bx          0x00004554        0x0
+ .v4_bx         0x00004554        0x0 linker stubs
+
+.iplt           0x00004554        0x0
+ .iplt          0x00004554        0x0 ./src/GPIO_Driver.o
+
+.rel.dyn        0x00004554        0x0
+ .rel.iplt      0x00004554        0x0 ./src/GPIO_Driver.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x00004554                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x00004554                __exidx_end = .
+                0x00004554                _etext = .
+
+.uninit_RESERVED
+                0x10000000        0x0
+ *(.bss.$RESERVED*)
+                0x10000000                . = ALIGN (0x4)
+                0x10000000                _end_uninit_RESERVED = .
+
+.data           0x10000000       0xe4 load address 0x00004554
+ FILL mask 0xff
+                0x10000000                _data = .
+ *(vtable)
+ *(.ramfunc*)
+ *(.data*)
+ .data._random_number_seed
+                0x10000000       0xdc d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdlib.o)
+ .data._random_j
+                0x100000dc        0x4 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdlib.o)
+ .data._random_k
+                0x100000e0        0x4 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdlib.o)
+                0x100000e4                . = ALIGN (0x4)
+                0x100000e4                _edata = .
+
+.igot.plt       0x100000e4        0x0 load address 0x00004638
+ .igot.plt      0x100000e4        0x0 ./src/GPIO_Driver.o
+
+.bss            0x100000e4      0x188 load address 0x00004638
+                0x100000e4                _bss = .
+ *(.bss*)
+ .bss.I2C_Device_Instance_Table
+                0x100000e4       0x46 ./src/I2C_Driver.o
+                0x100000e4                I2C_Device_Instance_Table
+ *fill*         0x1000012a        0x2 
+ .bss.canConfig
+                0x1000012c        0x4 ./src/MCP2517FD_ExampleFor_LPC111X.o
+                0x1000012c                canConfig
+ .bss.canTxConfig
+                0x10000130        0x4 ./src/MCP2517FD_ExampleFor_LPC111X.o
+                0x10000130                canTxConfig
+ .bss.canTxObj  0x10000134        0xc ./src/MCP2517FD_ExampleFor_LPC111X.o
+                0x10000134                canTxObj
+ .bss.canRxConfig
+                0x10000140        0x4 ./src/MCP2517FD_ExampleFor_LPC111X.o
+                0x10000140                canRxConfig
+ .bss.canFifoFilterObj
+                0x10000144        0x4 ./src/MCP2517FD_ExampleFor_LPC111X.o
+                0x10000144                canFifoFilterObj
+ .bss.canFifoMaskObj
+                0x10000148        0x4 ./src/MCP2517FD_ExampleFor_LPC111X.o
+                0x10000148                canFifoMaskObj
+ .bss.canRxMsgObj
+                0x1000014c        0xc ./src/MCP2517FD_ExampleFor_LPC111X.o
+                0x1000014c                canRxMsgObj
+ .bss.canRxMsgPayload
+                0x10000158       0x40 ./src/MCP2517FD_ExampleFor_LPC111X.o
+                0x10000158                canRxMsgPayload
+ .bss.canErrorFlags
+                0x10000198        0x1 ./src/MCP2517FD_ExampleFor_LPC111X.o
+                0x10000198                canErrorFlags
+ .bss.canTrasmitErrorCounter
+                0x10000199        0x1 ./src/MCP2517FD_ExampleFor_LPC111X.o
+                0x10000199                canTrasmitErrorCounter
+ .bss.canReceiveErrorCounter
+                0x1000019a        0x1 ./src/MCP2517FD_ExampleFor_LPC111X.o
+                0x1000019a                canReceiveErrorCounter
+ *fill*         0x1000019b        0x1 
+ .bss.canRxMessageCounter
+                0x1000019c        0x4 ./src/MCP2517FD_ExampleFor_LPC111X.o
+                0x1000019c                canRxMessageCounter
+ .bss.interruptCounter
+                0x100001a0        0x4 ./src/MCP2517FD_ExampleFor_LPC111X.o
+                0x100001a0                interruptCounter
+ .bss.i.6136    0x100001a4        0x4 ./src/MCP2517FD_ExampleFor_LPC111X.o
+ .bss.AhbClkDivider
+                0x100001a8        0x1 ./src/SPI_Driver.o
+ .bss.ClockPrescalerRegister
+                0x100001a9        0x1 ./src/SPI_Driver.o
+ .bss.SerialClockRate
+                0x100001aa        0x1 ./src/SPI_Driver.o
+ *fill*         0x100001ab        0x1 
+ .bss.spiTransmitBuffer
+                0x100001ac       0x60 ./driver/canfdspi/drv_canfdspi_api.o
+                0x100001ac                spiTransmitBuffer
+ .bss.spiReceiveBuffer
+                0x1000020c       0x60 ./driver/canfdspi/drv_canfdspi_api.o
+                0x1000020c                spiReceiveBuffer
+ *(COMMON)
+                0x1000026c                . = ALIGN (0x4)
+                0x1000026c                _ebss = .
+                [!provide]                PROVIDE (end, .)
+
+.noinit         0x1000026c        0x0 load address 0x00004638
+                0x1000026c                _noinit = .
+ *(.noinit*)
+                0x1000026c                . = ALIGN (0x4)
+                0x1000026c                _end_noinit = .
+                0x1000026c                PROVIDE (_pvHeapStart, DEFINED (__user_heap_base)?__user_heap_base:.)
+                0x10001000                PROVIDE (_vStackTop, DEFINED (__user_stack_top)?__user_stack_top:(__top_RamLoc4 - 0x0))
+                0xefffeb1d                PROVIDE (__valid_user_code_checksum, (0x0 - (((_vStackTop + (ResetISR + 0x1)) + (DEFINED (NMI_Handler)?NMI_Handler:M0_NMI_Handler + 0x1)) + (DEFINED (HardFault_Handler)?HardFault_Handler:M0_HardFault_Handler + 0x1))))
+OUTPUT(MCP2517FD_ExampleFor_LPC111X.axf elf32-littlearm)
+
+.debug_info     0x00000000     0x8d4c
+ .debug_info    0x00000000      0x323 ./src/GPIO_Driver.o
+ .debug_info    0x00000323      0xc3f ./src/I2C_Driver.o
+ .debug_info    0x00000f62      0xe31 ./src/MCP2517FD_ExampleFor_LPC111X.o
+ .debug_info    0x00001d93      0xaf9 ./src/SPI_Driver.o
+ .debug_info    0x0000288c      0x203 ./src/cr_startup_lpc11xx.o
+ .debug_info    0x00002a8f      0x1cd ./driver/spi/drv_spi.o
+ .debug_info    0x00002c5c     0x5c9a ./driver/canfdspi/drv_canfdspi_api.o
+ .debug_info    0x000088f6      0x456 D:\NXP_workspace\CMSISv2p00_LPC11xx\Debug\libCMSISv2p00_LPC11xx.a(system_LPC11xx.o)
+
+.debug_abbrev   0x00000000      0xc8b
+ .debug_abbrev  0x00000000      0x181 ./src/GPIO_Driver.o
+ .debug_abbrev  0x00000181      0x1f1 ./src/I2C_Driver.o
+ .debug_abbrev  0x00000372      0x22b ./src/MCP2517FD_ExampleFor_LPC111X.o
+ .debug_abbrev  0x0000059d      0x1b5 ./src/SPI_Driver.o
+ .debug_abbrev  0x00000752       0xe6 ./src/cr_startup_lpc11xx.o
+ .debug_abbrev  0x00000838       0xd2 ./driver/spi/drv_spi.o
+ .debug_abbrev  0x0000090a      0x27b ./driver/canfdspi/drv_canfdspi_api.o
+ .debug_abbrev  0x00000b85      0x106 D:\NXP_workspace\CMSISv2p00_LPC11xx\Debug\libCMSISv2p00_LPC11xx.a(system_LPC11xx.o)
+
+.debug_aranges  0x00000000      0x640
+ .debug_aranges
+                0x00000000       0x40 ./src/GPIO_Driver.o
+ .debug_aranges
+                0x00000040       0x60 ./src/I2C_Driver.o
+ .debug_aranges
+                0x000000a0       0x48 ./src/MCP2517FD_ExampleFor_LPC111X.o
+ .debug_aranges
+                0x000000e8       0x70 ./src/SPI_Driver.o
+ .debug_aranges
+                0x00000158       0x60 ./src/cr_startup_lpc11xx.o
+ .debug_aranges
+                0x000001b8       0x38 ./driver/spi/drv_spi.o
+ .debug_aranges
+                0x000001f0      0x428 ./driver/canfdspi/drv_canfdspi_api.o
+ .debug_aranges
+                0x00000618       0x28 D:\NXP_workspace\CMSISv2p00_LPC11xx\Debug\libCMSISv2p00_LPC11xx.a(system_LPC11xx.o)
+
+.debug_ranges   0x00000000      0x5c0
+ .debug_ranges  0x00000000       0x30 ./src/GPIO_Driver.o
+ .debug_ranges  0x00000030       0x50 ./src/I2C_Driver.o
+ .debug_ranges  0x00000080       0x38 ./src/MCP2517FD_ExampleFor_LPC111X.o
+ .debug_ranges  0x000000b8       0x60 ./src/SPI_Driver.o
+ .debug_ranges  0x00000118       0x50 ./src/cr_startup_lpc11xx.o
+ .debug_ranges  0x00000168       0x28 ./driver/spi/drv_spi.o
+ .debug_ranges  0x00000190      0x418 ./driver/canfdspi/drv_canfdspi_api.o
+ .debug_ranges  0x000005a8       0x18 D:\NXP_workspace\CMSISv2p00_LPC11xx\Debug\libCMSISv2p00_LPC11xx.a(system_LPC11xx.o)
+
+.debug_macro    0x00000000     0x291a
+ .debug_macro   0x00000000       0x89 ./src/GPIO_Driver.o
+ .debug_macro   0x00000089      0x844 ./src/GPIO_Driver.o
+ .debug_macro   0x000008cd       0x10 ./src/GPIO_Driver.o
+ .debug_macro   0x000008dd      0x12d ./src/GPIO_Driver.o
+ .debug_macro   0x00000a0a      0x5b2 ./src/GPIO_Driver.o
+ .debug_macro   0x00000fbc       0x22 ./src/GPIO_Driver.o
+ .debug_macro   0x00000fde       0x1c ./src/GPIO_Driver.o
+ .debug_macro   0x00000ffa       0x2e ./src/GPIO_Driver.o
+ .debug_macro   0x00001028      0x237 ./src/GPIO_Driver.o
+ .debug_macro   0x0000125f      0x131 ./src/GPIO_Driver.o
+ .debug_macro   0x00001390       0x99 ./src/I2C_Driver.o
+ .debug_macro   0x00001429       0x10 ./src/I2C_Driver.o
+ .debug_macro   0x00001439       0xdc ./src/MCP2517FD_ExampleFor_LPC111X.o
+ .debug_macro   0x00001515       0x16 ./src/MCP2517FD_ExampleFor_LPC111X.o
+ .debug_macro   0x0000152b       0x1c ./src/MCP2517FD_ExampleFor_LPC111X.o
+ .debug_macro   0x00001547       0x22 ./src/MCP2517FD_ExampleFor_LPC111X.o
+ .debug_macro   0x00001569      0x127 ./src/MCP2517FD_ExampleFor_LPC111X.o
+ .debug_macro   0x00001690       0x22 ./src/MCP2517FD_ExampleFor_LPC111X.o
+ .debug_macro   0x000016b2       0x94 ./src/SPI_Driver.o
+ .debug_macro   0x00001746       0x16 ./src/SPI_Driver.o
+ .debug_macro   0x0000175c       0x1d ./src/cr_startup_lpc11xx.o
+ .debug_macro   0x00001779       0xb9 ./driver/spi/drv_spi.o
+ .debug_macro   0x00001832       0x1c ./driver/spi/drv_spi.o
+ .debug_macro   0x0000184e       0x9c ./driver/canfdspi/drv_canfdspi_api.o
+ .debug_macro   0x000018ea      0x13b D:\NXP_workspace\CMSISv2p00_LPC11xx\Debug\libCMSISv2p00_LPC11xx.a(system_LPC11xx.o)
+ .debug_macro   0x00001a25      0x81a D:\NXP_workspace\CMSISv2p00_LPC11xx\Debug\libCMSISv2p00_LPC11xx.a(system_LPC11xx.o)
+ .debug_macro   0x0000223f      0x122 D:\NXP_workspace\CMSISv2p00_LPC11xx\Debug\libCMSISv2p00_LPC11xx.a(system_LPC11xx.o)
+ .debug_macro   0x00002361      0x5b9 D:\NXP_workspace\CMSISv2p00_LPC11xx\Debug\libCMSISv2p00_LPC11xx.a(system_LPC11xx.o)
+
+.debug_line     0x00000000     0x23f8
+ .debug_line    0x00000000      0x22b ./src/GPIO_Driver.o
+ .debug_line    0x0000022b      0x2ce ./src/I2C_Driver.o
+ .debug_line    0x000004f9      0x344 ./src/MCP2517FD_ExampleFor_LPC111X.o
+ .debug_line    0x0000083d      0x2c9 ./src/SPI_Driver.o
+ .debug_line    0x00000b06       0xba ./src/cr_startup_lpc11xx.o
+ .debug_line    0x00000bc0      0x26a ./driver/spi/drv_spi.o
+ .debug_line    0x00000e2a     0x1407 ./driver/canfdspi/drv_canfdspi_api.o
+ .debug_line    0x00002231      0x1c7 D:\NXP_workspace\CMSISv2p00_LPC11xx\Debug\libCMSISv2p00_LPC11xx.a(system_LPC11xx.o)
+
+.debug_str      0x00000000     0xaaae
+ .debug_str     0x00000000     0x5142 ./src/GPIO_Driver.o
+                               0x51c6 (size before relaxing)
+ .debug_str     0x00005142      0x8b5 ./src/I2C_Driver.o
+                               0x5954 (size before relaxing)
+ .debug_str     0x000059f7     0x1520 ./src/MCP2517FD_ExampleFor_LPC111X.o
+                               0x66dd (size before relaxing)
+ .debug_str     0x00006f17      0x245 ./src/SPI_Driver.o
+                               0x5734 (size before relaxing)
+ .debug_str     0x0000715c      0x168 ./src/cr_startup_lpc11xx.o
+                               0x252a (size before relaxing)
+ .debug_str     0x000072c4       0xfd ./driver/spi/drv_spi.o
+                               0x5302 (size before relaxing)
+ .debug_str     0x000073c1     0x2cb9 ./driver/canfdspi/drv_canfdspi_api.o
+                               0x7dfd (size before relaxing)
+ .debug_str     0x0000a07a      0xa34 D:\NXP_workspace\CMSISv2p00_LPC11xx\Debug\libCMSISv2p00_LPC11xx.a(system_LPC11xx.o)
+                               0x553e (size before relaxing)
+
+.comment        0x00000000      0x14c
+ .comment       0x00000000       0x6e ./src/GPIO_Driver.o
+                                 0x6f (size before relaxing)
+ .comment       0x0000006e       0x6f ./src/I2C_Driver.o
+ .comment       0x0000006e       0x6f ./src/MCP2517FD_ExampleFor_LPC111X.o
+ .comment       0x0000006e       0x6f ./src/SPI_Driver.o
+ .comment       0x0000006e       0x6f ./src/cr_startup_lpc11xx.o
+ .comment       0x0000006e       0x6f ./driver/spi/drv_spi.o
+ .comment       0x0000006e       0x6f ./driver/canfdspi/drv_canfdspi_api.o
+ .comment       0x0000006e       0x70 D:\NXP_workspace\CMSISv2p00_LPC11xx\Debug\libCMSISv2p00_LPC11xx.a(system_LPC11xx.o)
+                                 0x71 (size before relaxing)
+ .comment       0x000000de       0x6e d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__weak__main.o)
+                                 0x6f (size before relaxing)
+ .comment       0x0000014c       0x6f d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdlib.o)
+
+.ARM.attributes
+                0x00000000       0x2f
+ .ARM.attributes
+                0x00000000       0x31 ./src/GPIO_Driver.o
+ .ARM.attributes
+                0x00000031       0x31 ./src/I2C_Driver.o
+ .ARM.attributes
+                0x00000062       0x31 ./src/MCP2517FD_ExampleFor_LPC111X.o
+ .ARM.attributes
+                0x00000093       0x31 ./src/SPI_Driver.o
+ .ARM.attributes
+                0x000000c4       0x31 ./src/cr_startup_lpc11xx.o
+ .ARM.attributes
+                0x000000f5       0x31 ./driver/spi/drv_spi.o
+ .ARM.attributes
+                0x00000126       0x31 ./driver/canfdspi/drv_canfdspi_api.o
+ .ARM.attributes
+                0x00000157       0x31 D:\NXP_workspace\CMSISv2p00_LPC11xx\Debug\libCMSISv2p00_LPC11xx.a(system_LPC11xx.o)
+ .ARM.attributes
+                0x00000188       0x31 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__weak__main.o)
+ .ARM.attributes
+                0x000001b9       0x31 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdlib.o)
+
+.debug_frame    0x00000000     0x1698
+ .debug_frame   0x00000000       0xac ./src/GPIO_Driver.o
+ .debug_frame   0x000000ac      0x130 ./src/I2C_Driver.o
+ .debug_frame   0x000001dc       0xc8 ./src/MCP2517FD_ExampleFor_LPC111X.o
+ .debug_frame   0x000002a4      0x170 ./src/SPI_Driver.o
+ .debug_frame   0x00000414      0x118 ./src/cr_startup_lpc11xx.o
+ .debug_frame   0x0000052c       0x88 ./driver/spi/drv_spi.o
+ .debug_frame   0x000005b4     0x10a0 ./driver/canfdspi/drv_canfdspi_api.o
+ .debug_frame   0x00001654       0x44 D:\NXP_workspace\CMSISv2p00_LPC11xx\Debug\libCMSISv2p00_LPC11xx.a(system_LPC11xx.o)
+
+.debug_loc      0x00000000       0x84
+ .debug_loc     0x00000000       0x84 D:\NXP_workspace\CMSISv2p00_LPC11xx\Debug\libCMSISv2p00_LPC11xx.a(system_LPC11xx.o)
