@@ -59,14 +59,43 @@ PCBs was designed in Kicad application and all files was added to appropriate pr
 ### 6.1 Basic information
 Microchip deliver example with library which can be very easly ported from microchip microcontroller to other microcontroller. From user perspective is only require to modify drv_spi.c file which contain access to SPI interface(only one file which depend from peripheral).
 
-In drv_canfdspi_api.h header file we can find information "Subject to your compliance with these terms, you may use Microchip software and any derivatives exclusively with Microchip products." . According this paragraph I have doubt about legality usage of this library with MCP2517FD chip and NXP microcontrollers. Case was created on Microchip page and employee from Microchip answear that is only require use MCP2517xD chip with this driver and port to other microcontroller is legal.
+In drv_canfdspi_api.h header file we can find information "Subject to your compliance with these terms, you may use Microchip software and any derivatives exclusively with Microchip products." . According this paragraph I have doubt about legality usage of this library with MCP2517FD chip and NXP microcontrollers. Case was created on Microchip page and employee from Microchip answear that is only require use MCP2517xD chip with this driver and port to other microcontroller which belong to other manufacturer than microchip is legal.
 
 Below I added links to microchip page with things for MCP2517FD chip: <br />
 [-link to Microchip page with information about MCP2517FD](https://www.microchip.com/en-us/product/MCP2517FD) <br />
 [-link to Microchip page with information about MCP2518FD which is recomended for new design](https://www.microchip.com/en-us/product/MCP2518FD) <br />
-[-Link to source code example on Microchip page](https://ww1.microchip.com/downloads/en/DeviceDoc/MCP2517FD%20canfdspi%20API%20for%20SAMV71%20(v1.0).zip) <br />
+[-Link to source code example on Microchip page](https://ww1.microchip.com/downloads/en/DeviceDoc/MCP2517FD%20canfdspi%20API%20for%20SAMV71%20(v1.0).zip) <br /><br />
+Complete port process of microchip library to other microcontroller require from user few steps and below all necessary things was described:<br />
 
-### 6.2 Code example
+1)From link section in this chapter please download SW example from mmicrochip page and copy "driver" directory from folder "MCP2517FD canfdspi API for SAMV71 (v1.0).zip\V71_CANFDSPI\V71_CANFDSPI" to new project directory.<br />
+2)In \driver\spi\drv_spi.c modify below things:<br />
+a)Modify function spi_master_init(void) which initialize microcontroller SPI port.<br />
+a)modify function spi_master_transfer(...) which send data via microcontroller SPI port.<br />
+c)modify #include section to keep only necessary things and include file with driver to used microcontroller.<br />
+d)modify #define section to don't keep not used things.<br /><br />
 
+In [SW directory](https://github.com/AdrianChemicz/CAN-Eval-Board/tree/main/SW)
+ was provided examples for three LPC microcontrollers(MCP2517FD_ExampleFor_LPC111X, MCP2517FD_ExampleFor_LPC11UXX and MCP2517FD_ExampleFor_LPC82X). In those three examples most of code operate just on microchip API not on microntrollers peripherals. Provided code only use systick as timer which is common for all cortex-MX microcontrolers and can be very easy ported to other ARM microcontrollers. In those three provided example micirochip API is called from [MCP2517FD_ExampleFor_LPC111X.c](https://github.com/AdrianChemicz/CAN-Eval-Board/blob/main/SW/MCP2517FD_ExampleFor_LPC111X/src/MCP2517FD_ExampleFor_LPC111X.c), [MCP2517FD_ExampleFor_LPC11UXX.c](https://github.com/AdrianChemicz/CAN-Eval-Board/blob/main/SW/MCP2517FD_ExampleFor_LPC11UXX/src/MCP2517FD_ExampleFor_LPC11UXX.c) and [MCP2517FD_ExampleFor_LPC82X.c](https://github.com/AdrianChemicz/CAN-Eval-Board/blob/main/SW/MCP2517FD_ExampleFor_LPC82X/src/MCP2517FD_ExampleFor_LPC82X.c) files(single file per example). In provided examples is possible to prepare test of SPI interface without connected MPC2517FD chip. If physical connection with chip will be missing then SPI communication with chip will be not suspended by example. Using this feature in provided examples was added below code:
+>#if 0 //SPI protocol debug code<br />
+>	{<br />
+>		uint8_t testedWritePayload[8] = {46, 5, 124, 119, 122, 9, 87, 234};<br />
+>		uint8_t readPayload[8] = {0, 0, 0, 0, 0, 0, 0, 0};<br />
+>		// Write data to RAM<br />
+>		DRV_CANFDSPI_WriteByteArray(DRV_CANFDSPI_INDEX_0, cRAMADDR_START, testedWritePayload, 8);<br />
+><br />
+>		// Read data back from RAM<br />
+>		DRV_CANFDSPI_ReadByteArray(DRV_CANFDSPI_INDEX_0, cRAMADDR_START, readPayload, 8);<br />
+><br />
+>		Nop();<br />
+>	}<br />
+>#endif<br />
 
-### 6.3 Instruction step by step how port example
+Using this part of code user can verify that SPI work correctly by own SPI traffic with below SPI traffic. Function DRV_CANFDSPI_WriteByteArray in debug code will cause that ganerated SPI traffic will be similar like this traffic below:
+![SPI write](/Doc//LogicAnalyzerLog/SPI_WriteOperation.png)
+Function DRV_CANFDSPI_ReadByteArray in debug code with correctly connected and configured MCP2517FD chip will cause that ganerated SPI traffic will be similar like this traffic below:
+![SPI read](/Doc//LogicAnalyzerLog/SPI_ReadOperation.png)
+
+In [directory with SPI screenshots](https://github.com/AdrianChemicz/CAN-Eval-Board/tree/main/Doc/LogicAnalyzerLog) was added log gather via Saleae logic analyzer in binary format and CSV file.
+
+### 6.2 Code examples
+
