@@ -90,7 +90,8 @@ In [SW directory](https://github.com/AdrianChemicz/CAN-Eval-Board/tree/main/SW)
 >	}<br />
 >#endif<br />
 
-Using this part of code user can verify that SPI work correctly by own SPI traffic with below SPI traffic. Function DRV_CANFDSPI_WriteByteArray in debug code will cause that ganerated SPI traffic will be similar like this traffic below:
+Using this part of code user can verify that SPI work correctly by own SPI traffic with below log.<br /> 
+Function DRV_CANFDSPI_WriteByteArray in debug code will cause that ganerated SPI traffic will be similar like this traffic below:
 ![SPI write](/Doc//LogicAnalyzerLog/SPI_WriteOperation.png)
 Function DRV_CANFDSPI_ReadByteArray in debug code with correctly connected and configured MCP2517FD chip will cause that ganerated SPI traffic will be similar like this traffic below:
 ![SPI read](/Doc//LogicAnalyzerLog/SPI_ReadOperation.png)
