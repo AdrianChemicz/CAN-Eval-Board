@@ -33,9 +33,11 @@ MAX22245BAWA+(Optoisolation chip) power from 3,3V | 23.4ns | 32.2ns
 MAX22245BAWA+(Optoisolation chip) power from 5V | 22.6ns | 30.7ns
 MCP2562FD(CAN transceiver) | 120ns | 180ns
 
-Complete worse case propagation delay is equal:
+Complete worse case propagation delay is equal:<br />
 32.2ns + 30.7ns + 180ns = 242,9ns + small delay on traces which shouldn't exceed 1ns <br /><br />
-In system was used two optoisolation chip instead one because selected chip transmit signal in one direction. Use bidirectional chip is very hard to find becauase chip crisis cause that many electrical component are unavailable on market. In project was used chip MAX22245BAWA+ which work only in single direction. Manufacturer Maxim Integrated offer similar chip but with bidirectional isolation this is marked as MAX22246BAWA+. Using this bidirectional chip PCB design will looks like better - one chip intead two.
+In system was used two optoisolation chip instead one because selected chip transmit signal in one direction. Use bidirectional chip is very hard to find becauase chip crisis cause that many electrical component are unavailable on market. In project was used chip MAX22245BAWA+ which work only in single direction. Manufacturer Maxim Integrated offer similar chip but with bidirectional isolation this is marked as MAX22246BAWA+. Using this bidirectional chip PCB design will looks like better - one chip intead two.<br /><br />
+
+To power chips on isolated part is used DC/DC converter with galvanic separation. In project was selected ![RFMM-0505S](https://recom-power.com/pdf/Econoline/RFMM.pdf) converter. This type of converter for correct operation require load on output so for this reason was used 470 ohm resistor(R3 on schematic).
 
 ## 4.Overal system design
 
