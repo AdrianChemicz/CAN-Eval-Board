@@ -94,11 +94,46 @@ In [SW directory](https://github.com/AdrianChemicz/CAN-Eval-Board/tree/main/SW)
 
 Using this part of code user can verify that SPI work correctly by own SPI traffic with below log.<br /> 
 Function DRV_CANFDSPI_WriteByteArray in debug code will cause that ganerated SPI traffic will be similar like this traffic below:
-![SPI write](/Doc//LogicAnalyzerLog/SPI_WriteOperation.png)
+![SPI write](/Doc/LogicAnalyzerLog/SPI_WriteOperation.png)
 Function DRV_CANFDSPI_ReadByteArray in debug code with correctly connected and configured MCP2517FD chip will cause that ganerated SPI traffic will be similar like this traffic below:
-![SPI read](/Doc//LogicAnalyzerLog/SPI_ReadOperation.png)
+![SPI read](/Doc/LogicAnalyzerLog/SPI_ReadOperation.png)
+
+Below was added SPI setting from Saleae logic analyzer used during decode data:
+![SPI settings](/Doc/LogicAnalyzerLog/SPI_Settings.png)
 
 In [directory with SPI screenshots](https://github.com/AdrianChemicz/CAN-Eval-Board/tree/main/Doc/LogicAnalyzerLog) was added log gather via Saleae logic analyzer in binary format and CSV file.
 
 ### 6.2 Code examples
+
+In [SW directory](https://github.com/AdrianChemicz/CAN-Eval-Board/tree/main/SW) was provided few examples which can be directly imported to LPCXpresso. To setup complete working environment source code is not enough. To provide fully working environment is required microcontroller eval board connected to board with MCP2517FD so in this chapter was described connections between those two boards and other usefull information related to hardware.
+
+#### 6.2.1 LPC82x example
+
+In this example during test was used dedicated board which is available [here](https://github.com/AdrianChemicz/CAN-Eval-Board/tree/main/LPC82X_EvalBoard). LPC8X microcontroller family contain switch matrix which allow move peripheral functionality to one of available GPIO pins. This feature allow user to configure microcontroller pins in way which simplify connection with other hardware. LPC8X microcontroller board contain FT234XD chip which can be used to comunicate with PC using virtual COM port. <br />
+
+Below was added picture how to connect two board:
+
+Pin connection table:
+
+Photo with connected two board is available [here](/Doc/LPC82X_Connection.png).
+
+#### 6.2.2 LPC11XX example
+
+In this example during test was used board [OM11049](https://eu.mouser.com/ProductDetail/NXP-Semiconductors/OM11049598?qs=gr1fGwdOAsJfB09qfdGFmA%3D%3D). This board isn't available in sale - it was replaced by [OM13035](https://www.nxp.com/design/microcontrollers-developer-resources/lpcxpresso-board-for-lpc1115:OM13035). Main difference between OM11049 and OM13035 was changed microcontroller from LPC1114 to LPC1115. On OM13035 page PDF file with electrical schematic is the same like in OM11049 so it mean that microntroller pins location wasn't changed. Currently OM13035 also wasn't available in sale - was replaced by [OM13087](https://www.nxp.com/products/processors-and-microcontrollers/arm-microcontrollers/general-purpose-mcus/lpc1100-cortex-m0-plus-m0/lpcxpresso-board-for-lpc1115-with-cmsis-dap-probe:OM13087). Old and new board was compared and pins location on target side(LPC111X microcontroller side) between version wasn't changed. Only major differences between those two boards it is additional LED in new version of board(OM13087). OM11049 board don't provide 5V power source so to provide necessary voltage was used additional power source.<br />
+
+Below was added picture how to connect two board:
+
+Pin connection table:
+
+Photo with connected two board is available [here](/Doc/LPC1114_Connection.png).
+
+#### 6.2.3 LPC11UXX example
+
+In this example during test was used dedicated board which is available [here](https://github.com/AdrianChemicz/FootController/tree/main/PCB). In this board used LPC11U24 microcontroller.<br />
+
+Pin connection table:
+
+Photo with connected two board is available [here](/Doc/LPC11U24_Connection.png).
+
+
 
