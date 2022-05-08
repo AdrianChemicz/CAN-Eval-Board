@@ -112,7 +112,7 @@ In [SW directory](https://github.com/AdrianChemicz/CAN-Eval-Board/tree/main/SW) 
 In this example during test was used dedicated board which is available [here](https://github.com/AdrianChemicz/CAN-Eval-Board/tree/main/LPC82X_EvalBoard). LPC8X microcontroller family contain switch matrix which allow move peripheral functionality to one of available GPIO pins. This feature allow user to configure microcontroller pins in way which simplify connection with other hardware. LPC8X microcontroller board contain FT234XD chip which can be used to comunicate with PC using virtual COM port. <br />
 
 Below was added picture how to connect two board:
-
+![LPC82X Connection](/Doc/Connection/ConnectionSchematic_LPC824.png)
 Pin connection table:
 
 Photo with connected two board is available [here](/Doc/LPC82X_Connection.png).
@@ -122,7 +122,7 @@ Photo with connected two board is available [here](/Doc/LPC82X_Connection.png).
 In this example during test was used board [OM11049](https://eu.mouser.com/ProductDetail/NXP-Semiconductors/OM11049598?qs=gr1fGwdOAsJfB09qfdGFmA%3D%3D). This board isn't available in sale - it was replaced by [OM13035](https://www.nxp.com/design/microcontrollers-developer-resources/lpcxpresso-board-for-lpc1115:OM13035). Main difference between OM11049 and OM13035 was changed microcontroller from LPC1114 to LPC1115. On OM13035 page PDF file with electrical schematic is the same like in OM11049 so it mean that microntroller pins location wasn't changed. Currently OM13035 also wasn't available in sale - was replaced by [OM13087](https://www.nxp.com/products/processors-and-microcontrollers/arm-microcontrollers/general-purpose-mcus/lpc1100-cortex-m0-plus-m0/lpcxpresso-board-for-lpc1115-with-cmsis-dap-probe:OM13087). Old and new board was compared and pins location on target side(LPC111X microcontroller side) between version wasn't changed. Only major differences between those two boards it is additional LED in new version of board(OM13087). OM11049 board don't provide 5V power source so to provide necessary voltage was used additional power source.<br />
 
 Below was added picture how to connect two board:
-
+![LPC111X Connection](/Doc/Connection/ConnectionSchematic_LPC1114.png)
 Pin connection table:
 
 Photo with connected two board is available [here](/Doc/LPC1114_Connection.png).
@@ -131,6 +131,8 @@ Photo with connected two board is available [here](/Doc/LPC1114_Connection.png).
 
 In this example during test was used dedicated board which is available [here](https://github.com/AdrianChemicz/FootController/tree/main/PCB). In this board used LPC11U24 microcontroller.<br />
 
+Below was added picture how to connect two board:
+![LPC11UXX Connection](/Doc/Connection/ConnectionSchematic_LPC11U24.png)
 Pin connection table:
 
 Photo with connected two board is available [here](/Doc/LPC11U24_Connection.png).
