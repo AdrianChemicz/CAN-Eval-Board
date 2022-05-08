@@ -107,13 +107,22 @@ In [directory with SPI screenshots](https://github.com/AdrianChemicz/CAN-Eval-Bo
 
 In [SW directory](https://github.com/AdrianChemicz/CAN-Eval-Board/tree/main/SW) was provided few examples which can be directly imported to LPCXpresso. To setup complete working environment source code is not enough. To provide fully working environment is required microcontroller eval board connected to board with MCP2517FD so in this chapter was described connections between those two boards and other usefull information related to hardware.
 
-#### 6.2.1 LPC82x example
+#### 6.2.1 LPC82X example
 
 In this example during test was used dedicated board which is available [here](https://github.com/AdrianChemicz/CAN-Eval-Board/tree/main/LPC82X_EvalBoard). LPC8X microcontroller family contain switch matrix which allow move peripheral functionality to one of available GPIO pins. This feature allow user to configure microcontroller pins in way which simplify connection with other hardware. LPC8X microcontroller board contain FT234XD chip which can be used to comunicate with PC using virtual COM port. <br />
 
 Below was added picture how to connect two board:
 ![LPC82X Connection](/Doc/Connection/ConnectionSchematic_LPC824.png)
 Pin connection table:
+Connection name | MCP2517FD board | LPC82X board
+------------ | ------------ | ------------
+SSEL | CN1.8 nCS | CN5.12
+SCK | CN1.9 SCK | CN5.9
+MOSI | CN1.10 SDI | CN5.10
+MISO | CN1.7 SDO | CN5.11
+5V | CN1.2 5V | CN2 5V
+3.3V | CN1.6 3V3 | CN3 3V3
+GND | CN1.4 GND | CN4 GND
 
 Photo with connected two board is available [here](/Doc/LPC82X_Connection.png).
 
@@ -124,6 +133,15 @@ In this example during test was used board [OM11049](https://eu.mouser.com/Produ
 Below was added picture how to connect two board:
 ![LPC111X Connection](/Doc/Connection/ConnectionSchematic_LPC1114.png)
 Pin connection table:
+Connection name | MCP2517FD board | OM11049 board
+------------ | ------------ | ------------
+SSEL | CN1.8 nCS | J6.7 PIO2_11/SCK0/CT32B0_CAP1
+SCK | CN1.9 SCK | J6.23 PIO0_6/SCK0
+MOSI | CN1.10 SDI | J6.5 PIO0_9/MOSI0/CT16B0_MAT1
+MISO | CN1.7 SDO | J6.6 PIO0_8/MISO0/CT16B0_MAT0
+5V | CN1.2 5V | ---
+3.3V | CN1.6 3V3 | J6.28 3V3
+GND | CN1.4 GND | J6.1 GND
 
 Photo with connected two board is available [here](/Doc/LPC1114_Connection.png).
 
@@ -134,6 +152,15 @@ In this example during test was used dedicated board which is available [here](h
 Below was added picture how to connect two board:
 ![LPC11UXX Connection](/Doc/Connection/ConnectionSchematic_LPC11U24.png)
 Pin connection table:
+Connection name | MCP2517FD board | LPC11UXX board
+------------ | ------------ | ------------
+SSEL | CN1.8 nCS | CN5.5 PIO0_2/SSEL0/CT16B0_CAP0
+SCK | CN1.9 SCK | CN7.1 PIO1_15/DCD/CT16B0_MAT2/SCK1
+MOSI | CN1.10 SDI | CN5.1 PIO0_21/CT16B1_MAT0/MOSI1
+MISO | CN1.7 SDO | CN7.8 PIO0_22/AD6/CT16B1_MAT1/MISO1
+5V | CN1.2 5V | CN3 5V
+3.3V | CN1.6 3V3 | CN4 3V3
+GND | CN1.4 GND | CN2 GND
 
 Photo with connected two board is available [here](/Doc/LPC11U24_Connection.png).
 
