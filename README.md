@@ -164,5 +164,10 @@ GND | CN1.4 GND | CN2 GND
 
 Photo with connected two board is available [here](/Doc/LPC11U24_Connection.png).
 
+## 7.Other MCP2517FD chip hardware
+
+In case when user would like to fast start prototype SW with real hardware then build own hardware isn't necessary. On market are provided solutions like this - [MCP2517FD click](https://www.mikroe.com/mcp2517fd-click). This board use product ID MIKROE-2379 and according this number can be found on [farnell](https://pl.farnell.com/mikroelektronika/mikroe-2379/can-fd-controller-click-board/dp/2858076?ost=mikroe-2379) or on [TME](https://www.tme.eu/pl/details/mikroe-2379/plytki-rozszerzajace/mikroelektronika/mcp2517fd-click/).
+
+
 
 
