@@ -119,10 +119,10 @@ Below was added picture how to connect two board:
 Pin connection table:
 Connection name | MCP2517FD board | LPC82X board
 ------------ | ------------ | ------------
-SSEL | CN1.8 nCS | CN5.12
-SCK | CN1.9 SCK | CN5.9
-MOSI | CN1.10 SDI | CN5.10
-MISO | CN1.7 SDO | CN5.11
+SSEL | CN1.8 nCS | CN5.12 PIO0_23/ADC_3/ACMP_I4
+SCK | CN1.9 SCK | CN5.9 PIO0_12
+MOSI | CN1.10 SDI | CN5.10 PIO0_13/ADC_10
+MISO | CN1.7 SDO | CN5.11 PIO0_17/ADC_9
 5V | CN1.2 5V | CN2 5V
 3.3V | CN1.6 3V3 | CN3 3V3
 GND | CN1.4 GND | CN4 GND
