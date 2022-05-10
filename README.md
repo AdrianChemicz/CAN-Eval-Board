@@ -11,7 +11,7 @@ CAN Evaluation Board is hardware project which provide evaluation board for CAN-
 MCP2517FD is Microchip chip which work as SPI to CAN-FD converter. This chip provide also GPIO pins which can be configured via SPI and change state depending from situation like receive CAN message. Those GPIO pins was routed to connector CN1.<br /> 
 On new design MCP2517FD chip is not recomended user should select MCP2518FD. Older driver should be compatible with this chip.
 
-## 2.Can transceiver
+## 2.CAN transceiver
 
 MCP2517FD chip to work with CAN network require CAN transceiver and for this purpose was chosen MCP2562FD chip in DIP8 package. Chip crisis cause that only this transceiver is available on market. This chip was optimaze for transfers up to 5 Mbps in CAN-FD mode.
 
@@ -47,6 +47,9 @@ Version without optoisolation: <br />
 ![Device without opto](/Doc/NoOptoDesign.png) <br />
 Version with optoisolation: <br />
 ![Device with opto](/Doc/OptoIsolationDesign.png) <br />
+
+On below pin header which is the same for two type of board with MCP2517FD chip exist two type of voltage input 3.3V and 5V. 3.3V input is used to power MCP2517FD chip and optoisolation module. 5V connector is used to power CAN transceiver. MCP2517FD chip and optoisolation module can correctly operate with 5V power suplly(MCP2517FD can operate in voltage range from 2,7V to 5,5Vs and MAX22245BAWA+ can operate in voltage range from 1,71V to 5,5V) so it mean that two power suply isn't necessary and can be reduced to single 5V power suply connected to 3V3 and 5V connectors. Connect 5V to 3V3 connector on board with MCP2517FD was tested on setup with LPC11U24 microcontroller and communication working correctly(CAN traffic was send correctly to bus). Used LPC11U24 during test was powered from 3,3V and work correctly with MCP2517FD because used microcontroller pins are 5V tolerant so communication will not damage microcontroler. 
+![Pin header](/Doc/PinsDescription.png) <br />
 
 ## 5.Project file
 
