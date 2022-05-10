@@ -80,62 +80,62 @@ uint32_t interruptCounter;
 *****************************************************************************************/
 void InitCanFdChip(void)
 {
-    // Reset device
-    DRV_CANFDSPI_Reset(DRV_CANFDSPI_INDEX_0);
+	// Reset device
+	DRV_CANFDSPI_Reset(DRV_CANFDSPI_INDEX_0);
 
-    // Enable ECC and initialize RAM
-    DRV_CANFDSPI_EccEnable(DRV_CANFDSPI_INDEX_0);
+	// Enable ECC and initialize RAM
+	DRV_CANFDSPI_EccEnable(DRV_CANFDSPI_INDEX_0);
 
-    DRV_CANFDSPI_RamInit(DRV_CANFDSPI_INDEX_0, 0xff);
+	DRV_CANFDSPI_RamInit(DRV_CANFDSPI_INDEX_0, 0xff);
 
-    // Configure device by set CiCON register
-    DRV_CANFDSPI_ConfigureObjectReset(&canConfig);
-    canConfig.IsoCrcEnable = 1;
-    canConfig.StoreInTEF = 0;
+	// Configure device by set CiCON register
+	DRV_CANFDSPI_ConfigureObjectReset(&canConfig);
+	canConfig.IsoCrcEnable = 1;
+	canConfig.StoreInTEF = 0;
 
-    DRV_CANFDSPI_Configure(DRV_CANFDSPI_INDEX_0, &canConfig);
+	DRV_CANFDSPI_Configure(DRV_CANFDSPI_INDEX_0, &canConfig);
 
-    // Setup TX FIFO by set CiFIFOCON register
-    DRV_CANFDSPI_TransmitChannelConfigureObjectReset(&canTxConfig);
-    canTxConfig.FifoSize = 7;
-    canTxConfig.PayLoadSize = CAN_PLSIZE_64;
-    canTxConfig.TxPriority = 1;
+	// Setup TX FIFO by set CiFIFOCON register
+	DRV_CANFDSPI_TransmitChannelConfigureObjectReset(&canTxConfig);
+	canTxConfig.FifoSize = 7;
+	canTxConfig.PayLoadSize = CAN_PLSIZE_64;
+	canTxConfig.TxPriority = 1;
 
-    DRV_CANFDSPI_TransmitChannelConfigure(DRV_CANFDSPI_INDEX_0, CAN_TX_FIFO, &canTxConfig);
+	DRV_CANFDSPI_TransmitChannelConfigure(DRV_CANFDSPI_INDEX_0, CAN_TX_FIFO, &canTxConfig);
 
-    // Setup RX FIFO by set CiFIFOCON register
-    DRV_CANFDSPI_ReceiveChannelConfigureObjectReset(&canRxConfig);
-    canRxConfig.FifoSize = 15;
-    canRxConfig.PayLoadSize = CAN_PLSIZE_64;
+	// Setup RX FIFO by set CiFIFOCON register
+	DRV_CANFDSPI_ReceiveChannelConfigureObjectReset(&canRxConfig);
+	canRxConfig.FifoSize = 15;
+	canRxConfig.PayLoadSize = CAN_PLSIZE_64;
 
-    DRV_CANFDSPI_ReceiveChannelConfigure(DRV_CANFDSPI_INDEX_0, CAN_RX_FIFO, &canRxConfig);
+	DRV_CANFDSPI_ReceiveChannelConfigure(DRV_CANFDSPI_INDEX_0, CAN_RX_FIFO, &canRxConfig);
 
-    // Setup RX Filter by set CiFLTOBJ0 register
-    canFifoFilterObj.word = 0;
-    canFifoFilterObj.bF.SID = 0xda;
-    canFifoFilterObj.bF.EXIDE = 0;
-    canFifoFilterObj.bF.EID = 0x00;
+	// Setup RX Filter by set CiFLTOBJ0 register
+	canFifoFilterObj.word = 0;
+	canFifoFilterObj.bF.SID = 0xda;
+	canFifoFilterObj.bF.EXIDE = 0;
+	canFifoFilterObj.bF.EID = 0x00;
 
-    DRV_CANFDSPI_FilterObjectConfigure(DRV_CANFDSPI_INDEX_0, CAN_FILTER0, &canFifoFilterObj.bF);
+	DRV_CANFDSPI_FilterObjectConfigure(DRV_CANFDSPI_INDEX_0, CAN_FILTER0, &canFifoFilterObj.bF);
 
-    // Setup RX Mask by set CiMASK0 register
-    canFifoMaskObj.word = 0;
-    canFifoMaskObj.bF.MSID = 0x0;
-    canFifoMaskObj.bF.MIDE = 1; // Only allow standard IDs
-    canFifoMaskObj.bF.MEID = 0x0;
-    DRV_CANFDSPI_FilterMaskConfigure(DRV_CANFDSPI_INDEX_0, CAN_FILTER0, &canFifoMaskObj.bF);
+	// Setup RX Mask by set CiMASK0 register
+	canFifoMaskObj.word = 0;
+	canFifoMaskObj.bF.MSID = 0x0;
+	canFifoMaskObj.bF.MIDE = 1; // Only allow standard IDs
+	canFifoMaskObj.bF.MEID = 0x0;
+	DRV_CANFDSPI_FilterMaskConfigure(DRV_CANFDSPI_INDEX_0, CAN_FILTER0, &canFifoMaskObj.bF);
 
-    // Link FIFO and Filter by set CiFLTCON0 register
-    DRV_CANFDSPI_FilterToFifoLink(DRV_CANFDSPI_INDEX_0, CAN_FILTER0, CAN_RX_FIFO, true);
+	// Link FIFO and Filter by set CiFLTCON0 register
+	DRV_CANFDSPI_FilterToFifoLink(DRV_CANFDSPI_INDEX_0, CAN_FILTER0, CAN_RX_FIFO, true);
 
-    // Setup Bit Time
-    DRV_CANFDSPI_BitTimeConfigure(DRV_CANFDSPI_INDEX_0, CAN_500K_2M, CAN_SSP_MODE_AUTO, CAN_SYSCLK_40M);
+	// Setup Bit Time
+	DRV_CANFDSPI_BitTimeConfigure(DRV_CANFDSPI_INDEX_0, CAN_500K_2M, CAN_SSP_MODE_AUTO, CAN_SYSCLK_40M);
 
-    DRV_CANFDSPI_ReceiveChannelEventEnable(DRV_CANFDSPI_INDEX_0, CAN_RX_FIFO, CAN_RX_FIFO_NOT_EMPTY_EVENT);
-    DRV_CANFDSPI_ModuleEventEnable(DRV_CANFDSPI_INDEX_0, CAN_TX_EVENT | CAN_RX_EVENT);
+	DRV_CANFDSPI_ReceiveChannelEventEnable(DRV_CANFDSPI_INDEX_0, CAN_RX_FIFO, CAN_RX_FIFO_NOT_EMPTY_EVENT);
+	DRV_CANFDSPI_ModuleEventEnable(DRV_CANFDSPI_INDEX_0, CAN_TX_EVENT | CAN_RX_EVENT);
 
-    // Select Normal Mode
-    DRV_CANFDSPI_OperationModeSelect(DRV_CANFDSPI_INDEX_0, CAN_NORMAL_MODE);
+	// Select Normal Mode
+	DRV_CANFDSPI_OperationModeSelect(DRV_CANFDSPI_INDEX_0, CAN_NORMAL_MODE);
 }
 
 /*****************************************************************************************
@@ -149,37 +149,37 @@ void InitCanFdChip(void)
 *****************************************************************************************/
 bool TestCanChipRamAccess(void)
 {
-    uint8_t txd[MAX_DATA_BYTES];
-    uint8_t rxd[MAX_DATA_BYTES];
+	uint8_t txd[MAX_DATA_BYTES];
+	uint8_t rxd[MAX_DATA_BYTES];
 
-    // Verify read/write with different access length
-    // Note: RAM can only be accessed in multiples of 4 bytes
-    for (uint8_t length = 4; length <= MAX_DATA_BYTES; length += 4)
-    {
-        for (uint32_t i = 0; i < length; i++)
-        {
-            txd[i] = rand() & 0xff;
-            rxd[i] = 0xff;
-        }
+	// Verify read/write with different access length
+	// Note: RAM can only be accessed in multiples of 4 bytes
+	for (uint8_t length = 4; length <= MAX_DATA_BYTES; length += 4)
+	{
+		for (uint32_t i = 0; i < length; i++)
+		{
+			txd[i] = rand() & 0xff;
+			rxd[i] = 0xff;
+		}
 
-        // Write data to RAM
-        DRV_CANFDSPI_WriteByteArray(DRV_CANFDSPI_INDEX_0, cRAMADDR_START, txd, length);
+		// Write data to RAM
+		DRV_CANFDSPI_WriteByteArray(DRV_CANFDSPI_INDEX_0, cRAMADDR_START, txd, length);
 
-        // Read data back from RAM
-        DRV_CANFDSPI_ReadByteArray(DRV_CANFDSPI_INDEX_0, cRAMADDR_START, rxd, length);
+		// Read data back from RAM
+		DRV_CANFDSPI_ReadByteArray(DRV_CANFDSPI_INDEX_0, cRAMADDR_START, rxd, length);
 
-        // Verify value which was send to RAM with value which was read
-        for (uint32_t i = 0; i < length; i++)
-        {
-            if (txd[i] != rxd[i])
-            {
-                // Data mismatch
-                return false;
-            }
-        }
-    }/* for (length = 4; length <= MAX_DATA_BYTES; length += 4) */
+		// Verify value which was send to RAM with value which was read
+		for (uint32_t i = 0; i < length; i++)
+		{
+			if (txd[i] != rxd[i])
+			{
+				// Data mismatch
+				return false;
+			}
+		}
+	}/* for (length = 4; length <= MAX_DATA_BYTES; length += 4) */
 
-    return true;
+	return true;
 }/* bool TestCanChipRamAccess(void) */
 
 /*****************************************************************************************
@@ -217,21 +217,21 @@ void TransmitCanMessage(void)
 	uint8_t txd[MAX_DATA_BYTES];
 	CAN_TX_FIFO_EVENT canTxFlags;
 
-    // Initialize CAN structure with information about CAN ID, length and flags
-    canTxObj.bF.id.SID = 0x100;//CAN ID message
+	// Initialize CAN structure with information about CAN ID, length and flags
+	canTxObj.bF.id.SID = 0x100;//CAN ID message
 
-    canTxObj.bF.ctrl.DLC = 15;
-    canTxObj.bF.ctrl.IDE = 0;
-    canTxObj.bF.ctrl.BRS = 1;
-    canTxObj.bF.ctrl.FDF = 1;
+	canTxObj.bF.ctrl.DLC = 15;
+	canTxObj.bF.ctrl.IDE = 0;
+	canTxObj.bF.ctrl.BRS = 1;
+	canTxObj.bF.ctrl.FDF = 1;
 
-    dlcToByteSize = DRV_CANFDSPI_DlcToDataBytes((CAN_DLC) 15);
+	dlcToByteSize = DRV_CANFDSPI_DlcToDataBytes((CAN_DLC) 15);
 
-    // Initialize CAN payload by random data
-    for (int i = 0; i < dlcToByteSize; i++)
-    {
-    	txd[i] = rand() & 0xff;
-    }
+	// Initialize CAN payload by random data
+	for (int i = 0; i < dlcToByteSize; i++)
+	{
+		txd[i] = rand() & 0xff;
+	}
 
 	{
 		uint8_t attempts = MAX_TXQUEUE_ATTEMPTS;
@@ -303,13 +303,13 @@ int main(void)
 	{
 		uint8_t testedWritePayload[8] = {46, 5, 124, 119, 122, 9, 87, 234};
 		uint8_t readPayload[8] = {0, 0, 0, 0, 0, 0, 0, 0};
-        // Write data to RAM
-        DRV_CANFDSPI_WriteByteArray(DRV_CANFDSPI_INDEX_0, cRAMADDR_START, testedWritePayload, 8);
+		// Write data to RAM
+		DRV_CANFDSPI_WriteByteArray(DRV_CANFDSPI_INDEX_0, cRAMADDR_START, testedWritePayload, 8);
 
-        // Read data back from RAM
-        DRV_CANFDSPI_ReadByteArray(DRV_CANFDSPI_INDEX_0, cRAMADDR_START, readPayload, 8);
+		// Read data back from RAM
+		DRV_CANFDSPI_ReadByteArray(DRV_CANFDSPI_INDEX_0, cRAMADDR_START, readPayload, 8);
 
-        Nop();
+		Nop();
 	}
 #endif
 	TransmitCanMessage();
@@ -326,11 +326,11 @@ int main(void)
 	// Set bit 0(ENABLE) and 1(TICKINT) in SYST_CSR register
 	SysTick->CTRL |= 3;
 
-    // Force the counter to be placed into memory
-    volatile static int i = 0 ;
-    // Enter an infinite loop, just incrementing a counter
-    while(1) {
-        i++ ;
-    }
-    return 0 ;
+	// Force the counter to be placed into memory
+	volatile static int i = 0 ;
+	// Enter an infinite loop, just incrementing a counter
+	while(1) {
+		i++ ;
+	}
+	return 0 ;
 }/* int main(void) */

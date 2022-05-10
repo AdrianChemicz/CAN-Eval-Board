@@ -5,7 +5,7 @@
  * Generated linker script file for LPC11U24/301
  * Created from linkscript.ldt by FMCreateLinkLibraries
  * Using Freemarker v2.3.23
- * LPCXpresso v8.2.2 [Build 650] [2016-09-09]  on 2022-04-18 23:32:05
+ * LPCXpresso v8.2.2 [Build 650] [2016-09-09]  on 2022-05-10 17:16:53
  */
 
 INCLUDE "MCP2517FD_ExampleFor_LPC11UXX_Debug_library.ld"
