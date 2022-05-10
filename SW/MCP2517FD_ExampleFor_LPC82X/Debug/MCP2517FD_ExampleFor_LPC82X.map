@@ -109,12 +109,64 @@ Discarded input sections
  .text          0x00000000        0x0 ./src/GPIO_Driver.o
  .data          0x00000000        0x0 ./src/GPIO_Driver.o
  .bss           0x00000000        0x0 ./src/GPIO_Driver.o
+ .text.GPIO_Init
+                0x00000000       0x34 ./src/GPIO_Driver.o
  .text.GPIO_Direction
                 0x00000000       0x1e ./src/GPIO_Driver.o
  .text.GPIO_SetState
                 0x00000000        0xc ./src/GPIO_Driver.o
  .text.GPIO_GetState
                 0x00000000       0x12 ./src/GPIO_Driver.o
+ .debug_info    0x00000000      0x698 ./src/GPIO_Driver.o
+ .debug_abbrev  0x00000000      0x176 ./src/GPIO_Driver.o
+ .debug_loc     0x00000000       0x97 ./src/GPIO_Driver.o
+ .debug_aranges
+                0x00000000       0x38 ./src/GPIO_Driver.o
+ .debug_ranges  0x00000000       0x28 ./src/GPIO_Driver.o
+ .debug_macro   0x00000000      0x203 ./src/GPIO_Driver.o
+ .debug_macro   0x00000000      0x85c ./src/GPIO_Driver.o
+ .debug_macro   0x00000000       0x10 ./src/GPIO_Driver.o
+ .debug_macro   0x00000000      0x12d ./src/GPIO_Driver.o
+ .debug_macro   0x00000000      0x5b2 ./src/GPIO_Driver.o
+ .debug_macro   0x00000000       0x22 ./src/GPIO_Driver.o
+ .debug_macro   0x00000000       0x81 ./src/GPIO_Driver.o
+ .debug_macro   0x00000000       0x16 ./src/GPIO_Driver.o
+ .debug_macro   0x00000000       0x28 ./src/GPIO_Driver.o
+ .debug_macro   0x00000000       0x3a ./src/GPIO_Driver.o
+ .debug_macro   0x00000000       0x1f ./src/GPIO_Driver.o
+ .debug_macro   0x00000000      0x250 ./src/GPIO_Driver.o
+ .debug_macro   0x00000000      0x1ae ./src/GPIO_Driver.o
+ .debug_macro   0x00000000       0xca ./src/GPIO_Driver.o
+ .debug_macro   0x00000000       0x6a ./src/GPIO_Driver.o
+ .debug_macro   0x00000000       0x70 ./src/GPIO_Driver.o
+ .debug_macro   0x00000000       0x28 ./src/GPIO_Driver.o
+ .debug_macro   0x00000000      0x190 ./src/GPIO_Driver.o
+ .debug_macro   0x00000000       0x24 ./src/GPIO_Driver.o
+ .debug_macro   0x00000000       0x64 ./src/GPIO_Driver.o
+ .debug_macro   0x00000000       0x10 ./src/GPIO_Driver.o
+ .debug_macro   0x00000000       0x22 ./src/GPIO_Driver.o
+ .debug_macro   0x00000000       0xb2 ./src/GPIO_Driver.o
+ .debug_macro   0x00000000       0x58 ./src/GPIO_Driver.o
+ .debug_macro   0x00000000       0x58 ./src/GPIO_Driver.o
+ .debug_macro   0x00000000       0x6a ./src/GPIO_Driver.o
+ .debug_macro   0x00000000       0x82 ./src/GPIO_Driver.o
+ .debug_macro   0x00000000       0x16 ./src/GPIO_Driver.o
+ .debug_macro   0x00000000      0x16f ./src/GPIO_Driver.o
+ .debug_macro   0x00000000       0x22 ./src/GPIO_Driver.o
+ .debug_macro   0x00000000       0x52 ./src/GPIO_Driver.o
+ .debug_macro   0x00000000      0x181 ./src/GPIO_Driver.o
+ .debug_macro   0x00000000      0x289 ./src/GPIO_Driver.o
+ .debug_macro   0x00000000      0x28b ./src/GPIO_Driver.o
+ .debug_macro   0x00000000       0x2e ./src/GPIO_Driver.o
+ .debug_macro   0x00000000       0x22 ./src/GPIO_Driver.o
+ .debug_macro   0x00000000      0x216 ./src/GPIO_Driver.o
+ .debug_macro   0x00000000      0x1d5 ./src/GPIO_Driver.o
+ .debug_line    0x00000000      0x42a ./src/GPIO_Driver.o
+ .debug_str     0x00000000     0xb555 ./src/GPIO_Driver.o
+ .comment       0x00000000       0x6f ./src/GPIO_Driver.o
+ .debug_frame   0x00000000       0x5c ./src/GPIO_Driver.o
+ .ARM.attributes
+                0x00000000       0x31 ./src/GPIO_Driver.o
  .group         0x00000000        0x8 ./src/I2C_Driver.o
  .group         0x00000000        0x8 ./src/I2C_Driver.o
  .group         0x00000000        0x8 ./src/I2C_Driver.o
@@ -1553,7 +1605,7 @@ END GROUP
                 0x10001000                __top_RamLoc4 = 0x10001000
                 0x10001000                __top_RAM = 0x10001000
 
-.text           0x00000000     0x1b18
+.text           0x00000000     0x1ae0
  FILL mask 0xff
                 0x00000000                __vectors_start__ = ABSOLUTE (.)
  *(.isr_vector)
@@ -1562,7 +1614,7 @@ END GROUP
                 0x000000c0                . = ALIGN (0x4)
                 0x000000c0                __section_table_start = .
                 0x000000c0                __data_section_table = .
-                0x000000c0        0x4 LONG 0x1b18 LOADADDR (.data)
+                0x000000c0        0x4 LONG 0x1ae0 LOADADDR (.data)
                 0x000000c4        0x4 LONG 0x10000100 ADDR (.data)
                 0x000000c8        0x4 LONG 0xe4 SIZEOF (.data)
                 0x000000cc                __data_section_table_end = .
@@ -1608,275 +1660,272 @@ END GROUP
                 0x000000f2                bss_init
                 0x00000102                ResetISR
  *(.text*)
- .text.GPIO_Init
-                0x00000160       0x34 ./src/GPIO_Driver.o
-                0x00000160                GPIO_Init
  .text.I2C_InterruptDisable
-                0x00000194       0x24 ./src/I2C_Driver.o
+                0x00000160       0x24 ./src/I2C_Driver.o
  .text.I2C_InterruptProccess
-                0x000001b8      0x12c ./src/I2C_Driver.o
-                0x000001b8                I2C_InterruptProccess
+                0x00000184      0x12c ./src/I2C_Driver.o
+                0x00000184                I2C_InterruptProccess
  .text.I2C0_IRQHandler
-                0x000002e4        0xa ./src/I2C_Driver.o
-                0x000002e4                I2C0_IRQHandler
+                0x000002b0        0xa ./src/I2C_Driver.o
+                0x000002b0                I2C0_IRQHandler
  .text.I2C1_IRQHandler
-                0x000002ee        0xa ./src/I2C_Driver.o
-                0x000002ee                I2C1_IRQHandler
+                0x000002ba        0xa ./src/I2C_Driver.o
+                0x000002ba                I2C1_IRQHandler
  .text.I2C2_IRQHandler
-                0x000002f8        0xa ./src/I2C_Driver.o
-                0x000002f8                I2C2_IRQHandler
+                0x000002c4        0xa ./src/I2C_Driver.o
+                0x000002c4                I2C2_IRQHandler
  .text.I2C3_IRQHandler
-                0x00000302        0xa ./src/I2C_Driver.o
-                0x00000302                I2C3_IRQHandler
+                0x000002ce        0xa ./src/I2C_Driver.o
+                0x000002ce                I2C3_IRQHandler
  .text.InitCanFdChip
-                0x0000030c      0x100 ./src/MCP2517FD_ExampleFor_LPC82X.o
-                0x0000030c                InitCanFdChip
+                0x000002d8      0x100 ./src/MCP2517FD_ExampleFor_LPC82X.o
+                0x000002d8                InitCanFdChip
  .text.TestCanChipRamAccess
-                0x0000040c       0x5e ./src/MCP2517FD_ExampleFor_LPC82X.o
-                0x0000040c                TestCanChipRamAccess
- *fill*         0x0000046a        0x2 ff
+                0x000003d8       0x5e ./src/MCP2517FD_ExampleFor_LPC82X.o
+                0x000003d8                TestCanChipRamAccess
+ *fill*         0x00000436        0x2 ff
  .text.ReceiveCanMessage
-                0x0000046c       0x3c ./src/MCP2517FD_ExampleFor_LPC82X.o
-                0x0000046c                ReceiveCanMessage
+                0x00000438       0x3c ./src/MCP2517FD_ExampleFor_LPC82X.o
+                0x00000438                ReceiveCanMessage
  .text.TransmitCanMessage
-                0x000004a8       0xbc ./src/MCP2517FD_ExampleFor_LPC82X.o
-                0x000004a8                TransmitCanMessage
+                0x00000474       0xbc ./src/MCP2517FD_ExampleFor_LPC82X.o
+                0x00000474                TransmitCanMessage
  .text.SysTick_Handler
-                0x00000564       0x24 ./src/MCP2517FD_ExampleFor_LPC82X.o
-                0x00000564                SysTick_Handler
+                0x00000530       0x24 ./src/MCP2517FD_ExampleFor_LPC82X.o
+                0x00000530                SysTick_Handler
  .text.startup.main
-                0x00000588       0x44 ./src/MCP2517FD_ExampleFor_LPC82X.o
-                0x00000588                main
+                0x00000554       0x40 ./src/MCP2517FD_ExampleFor_LPC82X.o
+                0x00000554                main
  .text.SPI_GetBaseAddress
-                0x000005cc       0x1c ./src/SPI_Driver.o
+                0x00000594       0x1c ./src/SPI_Driver.o
  .text.SPI_DriverInit
-                0x000005e8       0xa0 ./src/SPI_Driver.o
-                0x000005e8                SPI_DriverInit
+                0x000005b0       0xa0 ./src/SPI_Driver.o
+                0x000005b0                SPI_DriverInit
  .text.SPI_PutByteToTransmitter
-                0x00000688       0x2a ./src/SPI_Driver.o
-                0x00000688                SPI_PutByteToTransmitter
+                0x00000650       0x2a ./src/SPI_Driver.o
+                0x00000650                SPI_PutByteToTransmitter
  .text.SPI_ReadByteFromTrasmitter
-                0x000006b2        0xc ./src/SPI_Driver.o
-                0x000006b2                SPI_ReadByteFromTrasmitter
+                0x0000067a        0xc ./src/SPI_Driver.o
+                0x0000067a                SPI_ReadByteFromTrasmitter
  .text.SPI_ReturnStatusRegister
-                0x000006be        0xa ./src/SPI_Driver.o
-                0x000006be                SPI_ReturnStatusRegister
+                0x00000686        0xa ./src/SPI_Driver.o
+                0x00000686                SPI_ReturnStatusRegister
  .text.__aeabi_uidiv
-                0x000006c8       0x10 ./src/aeabi_romdiv_patch.o
-                0x000006c8                __aeabi_uidivmod
-                0x000006c8                __aeabi_uidiv
+                0x00000690       0x10 ./src/aeabi_romdiv_patch.o
+                0x00000690                __aeabi_uidivmod
+                0x00000690                __aeabi_uidiv
  .text.SystemInit
-                0x000006d8        0x8 ./src/sysinit.o
-                0x000006d8                SystemInit
+                0x000006a0        0x8 ./src/sysinit.o
+                0x000006a0                SystemInit
  .text.DRV_SPI_Initialize
-                0x000006e0        0x8 ./driver/spi/drv_spi.o
-                0x000006e0                DRV_SPI_Initialize
+                0x000006a8        0x8 ./driver/spi/drv_spi.o
+                0x000006a8                DRV_SPI_Initialize
  .text.DRV_SPI_TransferData
-                0x000006e8        0xe ./driver/spi/drv_spi.o
-                0x000006e8                DRV_SPI_TransferData
+                0x000006b0        0xe ./driver/spi/drv_spi.o
+                0x000006b0                DRV_SPI_TransferData
  .text.spi_master_init
-                0x000006f6        0xe ./driver/spi/drv_spi.o
-                0x000006f6                spi_master_init
+                0x000006be        0xe ./driver/spi/drv_spi.o
+                0x000006be                spi_master_init
  .text.spi_master_transfer
-                0x00000704       0xbe ./driver/spi/drv_spi.o
-                0x00000704                spi_master_transfer
- *fill*         0x000007c2        0x2 ff
+                0x000006cc       0xbe ./driver/spi/drv_spi.o
+                0x000006cc                spi_master_transfer
+ *fill*         0x0000078a        0x2 ff
  .text.DRV_CANFDSPI_Reset
-                0x000007c4       0x1c ./driver/canfdspi/drv_canfdspi_api.o
-                0x000007c4                DRV_CANFDSPI_Reset
+                0x0000078c       0x1c ./driver/canfdspi/drv_canfdspi_api.o
+                0x0000078c                DRV_CANFDSPI_Reset
  .text.DRV_CANFDSPI_ReadByte
-                0x000007e0       0x30 ./driver/canfdspi/drv_canfdspi_api.o
-                0x000007e0                DRV_CANFDSPI_ReadByte
+                0x000007a8       0x30 ./driver/canfdspi/drv_canfdspi_api.o
+                0x000007a8                DRV_CANFDSPI_ReadByte
  .text.DRV_CANFDSPI_WriteByte
-                0x00000810       0x24 ./driver/canfdspi/drv_canfdspi_api.o
-                0x00000810                DRV_CANFDSPI_WriteByte
+                0x000007d8       0x24 ./driver/canfdspi/drv_canfdspi_api.o
+                0x000007d8                DRV_CANFDSPI_WriteByte
  .text.DRV_CANFDSPI_ReadWord
-                0x00000834       0x44 ./driver/canfdspi/drv_canfdspi_api.o
-                0x00000834                DRV_CANFDSPI_ReadWord
+                0x000007fc       0x44 ./driver/canfdspi/drv_canfdspi_api.o
+                0x000007fc                DRV_CANFDSPI_ReadWord
  .text.DRV_CANFDSPI_WriteWord
-                0x00000878       0x30 ./driver/canfdspi/drv_canfdspi_api.o
-                0x00000878                DRV_CANFDSPI_WriteWord
+                0x00000840       0x30 ./driver/canfdspi/drv_canfdspi_api.o
+                0x00000840                DRV_CANFDSPI_WriteWord
  .text.DRV_CANFDSPI_ReadHalfWord
-                0x000008a8       0x38 ./driver/canfdspi/drv_canfdspi_api.o
-                0x000008a8                DRV_CANFDSPI_ReadHalfWord
+                0x00000870       0x38 ./driver/canfdspi/drv_canfdspi_api.o
+                0x00000870                DRV_CANFDSPI_ReadHalfWord
  .text.DRV_CANFDSPI_WriteHalfWord
-                0x000008e0       0x28 ./driver/canfdspi/drv_canfdspi_api.o
-                0x000008e0                DRV_CANFDSPI_WriteHalfWord
+                0x000008a8       0x28 ./driver/canfdspi/drv_canfdspi_api.o
+                0x000008a8                DRV_CANFDSPI_WriteHalfWord
  .text.DRV_CANFDSPI_ReadByteArray
-                0x00000908       0x50 ./driver/canfdspi/drv_canfdspi_api.o
-                0x00000908                DRV_CANFDSPI_ReadByteArray
+                0x000008d0       0x50 ./driver/canfdspi/drv_canfdspi_api.o
+                0x000008d0                DRV_CANFDSPI_ReadByteArray
  .text.DRV_CANFDSPI_WriteByteArray
-                0x00000958       0x38 ./driver/canfdspi/drv_canfdspi_api.o
-                0x00000958                DRV_CANFDSPI_WriteByteArray
+                0x00000920       0x38 ./driver/canfdspi/drv_canfdspi_api.o
+                0x00000920                DRV_CANFDSPI_WriteByteArray
  .text.DRV_CANFDSPI_ReadWordArray
-                0x00000990       0x84 ./driver/canfdspi/drv_canfdspi_api.o
-                0x00000990                DRV_CANFDSPI_ReadWordArray
+                0x00000958       0x84 ./driver/canfdspi/drv_canfdspi_api.o
+                0x00000958                DRV_CANFDSPI_ReadWordArray
  .text.DRV_CANFDSPI_Configure
-                0x00000a14       0x9c ./driver/canfdspi/drv_canfdspi_api.o
-                0x00000a14                DRV_CANFDSPI_Configure
+                0x000009dc       0x9c ./driver/canfdspi/drv_canfdspi_api.o
+                0x000009dc                DRV_CANFDSPI_Configure
  .text.DRV_CANFDSPI_ConfigureObjectReset
-                0x00000ab0       0x42 ./driver/canfdspi/drv_canfdspi_api.o
-                0x00000ab0                DRV_CANFDSPI_ConfigureObjectReset
+                0x00000a78       0x42 ./driver/canfdspi/drv_canfdspi_api.o
+                0x00000a78                DRV_CANFDSPI_ConfigureObjectReset
  .text.DRV_CANFDSPI_OperationModeSelect
-                0x00000af2       0x3e ./driver/canfdspi/drv_canfdspi_api.o
-                0x00000af2                DRV_CANFDSPI_OperationModeSelect
+                0x00000aba       0x3e ./driver/canfdspi/drv_canfdspi_api.o
+                0x00000aba                DRV_CANFDSPI_OperationModeSelect
  .text.DRV_CANFDSPI_TransmitChannelConfigure
-                0x00000b30       0x48 ./driver/canfdspi/drv_canfdspi_api.o
-                0x00000b30                DRV_CANFDSPI_TransmitChannelConfigure
+                0x00000af8       0x48 ./driver/canfdspi/drv_canfdspi_api.o
+                0x00000af8                DRV_CANFDSPI_TransmitChannelConfigure
  .text.DRV_CANFDSPI_TransmitChannelConfigureObjectReset
-                0x00000b78        0xc ./driver/canfdspi/drv_canfdspi_api.o
-                0x00000b78                DRV_CANFDSPI_TransmitChannelConfigureObjectReset
+                0x00000b40        0xc ./driver/canfdspi/drv_canfdspi_api.o
+                0x00000b40                DRV_CANFDSPI_TransmitChannelConfigureObjectReset
  .text.DRV_CANFDSPI_TransmitChannelUpdate
-                0x00000b84       0x22 ./driver/canfdspi/drv_canfdspi_api.o
-                0x00000b84                DRV_CANFDSPI_TransmitChannelUpdate
+                0x00000b4c       0x22 ./driver/canfdspi/drv_canfdspi_api.o
+                0x00000b4c                DRV_CANFDSPI_TransmitChannelUpdate
  .text.DRV_CANFDSPI_FilterObjectConfigure
-                0x00000ba6       0x10 ./driver/canfdspi/drv_canfdspi_api.o
-                0x00000ba6                DRV_CANFDSPI_FilterObjectConfigure
+                0x00000b6e       0x10 ./driver/canfdspi/drv_canfdspi_api.o
+                0x00000b6e                DRV_CANFDSPI_FilterObjectConfigure
  .text.DRV_CANFDSPI_FilterMaskConfigure
-                0x00000bb6       0x10 ./driver/canfdspi/drv_canfdspi_api.o
-                0x00000bb6                DRV_CANFDSPI_FilterMaskConfigure
+                0x00000b7e       0x10 ./driver/canfdspi/drv_canfdspi_api.o
+                0x00000b7e                DRV_CANFDSPI_FilterMaskConfigure
  .text.DRV_CANFDSPI_FilterToFifoLink
-                0x00000bc6       0x20 ./driver/canfdspi/drv_canfdspi_api.o
-                0x00000bc6                DRV_CANFDSPI_FilterToFifoLink
- *fill*         0x00000be6        0x2 ff
+                0x00000b8e       0x20 ./driver/canfdspi/drv_canfdspi_api.o
+                0x00000b8e                DRV_CANFDSPI_FilterToFifoLink
+ *fill*         0x00000bae        0x2 ff
  .text.DRV_CANFDSPI_ReceiveChannelConfigure
-                0x00000be8       0x3c ./driver/canfdspi/drv_canfdspi_api.o
-                0x00000be8                DRV_CANFDSPI_ReceiveChannelConfigure
+                0x00000bb0       0x3c ./driver/canfdspi/drv_canfdspi_api.o
+                0x00000bb0                DRV_CANFDSPI_ReceiveChannelConfigure
  .text.DRV_CANFDSPI_ReceiveChannelConfigureObjectReset
-                0x00000c24       0x20 ./driver/canfdspi/drv_canfdspi_api.o
-                0x00000c24                DRV_CANFDSPI_ReceiveChannelConfigureObjectReset
+                0x00000bec       0x20 ./driver/canfdspi/drv_canfdspi_api.o
+                0x00000bec                DRV_CANFDSPI_ReceiveChannelConfigureObjectReset
  .text.DRV_CANFDSPI_ReceiveChannelUpdate
-                0x00000c44       0x10 ./driver/canfdspi/drv_canfdspi_api.o
-                0x00000c44                DRV_CANFDSPI_ReceiveChannelUpdate
+                0x00000c0c       0x10 ./driver/canfdspi/drv_canfdspi_api.o
+                0x00000c0c                DRV_CANFDSPI_ReceiveChannelUpdate
  .text.DRV_CANFDSPI_ReceiveMessageGet
-                0x00000c54      0x12c ./driver/canfdspi/drv_canfdspi_api.o
-                0x00000c54                DRV_CANFDSPI_ReceiveMessageGet
+                0x00000c1c      0x12c ./driver/canfdspi/drv_canfdspi_api.o
+                0x00000c1c                DRV_CANFDSPI_ReceiveMessageGet
  .text.DRV_CANFDSPI_ModuleEventEnable
-                0x00000d80       0x3c ./driver/canfdspi/drv_canfdspi_api.o
-                0x00000d80                DRV_CANFDSPI_ModuleEventEnable
+                0x00000d48       0x3c ./driver/canfdspi/drv_canfdspi_api.o
+                0x00000d48                DRV_CANFDSPI_ModuleEventEnable
  .text.DRV_CANFDSPI_TransmitChannelEventGet
-                0x00000dbc       0x2a ./driver/canfdspi/drv_canfdspi_api.o
-                0x00000dbc                DRV_CANFDSPI_TransmitChannelEventGet
+                0x00000d84       0x2a ./driver/canfdspi/drv_canfdspi_api.o
+                0x00000d84                DRV_CANFDSPI_TransmitChannelEventGet
  .text.DRV_CANFDSPI_ReceiveChannelEventGet
-                0x00000de6       0x32 ./driver/canfdspi/drv_canfdspi_api.o
-                0x00000de6                DRV_CANFDSPI_ReceiveChannelEventGet
+                0x00000dae       0x32 ./driver/canfdspi/drv_canfdspi_api.o
+                0x00000dae                DRV_CANFDSPI_ReceiveChannelEventGet
  .text.DRV_CANFDSPI_ReceiveChannelEventEnable
-                0x00000e18       0x50 ./driver/canfdspi/drv_canfdspi_api.o
-                0x00000e18                DRV_CANFDSPI_ReceiveChannelEventEnable
+                0x00000de0       0x50 ./driver/canfdspi/drv_canfdspi_api.o
+                0x00000de0                DRV_CANFDSPI_ReceiveChannelEventEnable
  .text.DRV_CANFDSPI_ErrorCountStateGet
-                0x00000e68       0x32 ./driver/canfdspi/drv_canfdspi_api.o
-                0x00000e68                DRV_CANFDSPI_ErrorCountStateGet
- *fill*         0x00000e9a        0x2 ff
+                0x00000e30       0x32 ./driver/canfdspi/drv_canfdspi_api.o
+                0x00000e30                DRV_CANFDSPI_ErrorCountStateGet
+ *fill*         0x00000e62        0x2 ff
  .text.DRV_CANFDSPI_EccEnable
-                0x00000e9c       0x3c ./driver/canfdspi/drv_canfdspi_api.o
-                0x00000e9c                DRV_CANFDSPI_EccEnable
+                0x00000e64       0x3c ./driver/canfdspi/drv_canfdspi_api.o
+                0x00000e64                DRV_CANFDSPI_EccEnable
  .text.DRV_CANFDSPI_RamInit
-                0x00000ed8       0x3c ./driver/canfdspi/drv_canfdspi_api.o
-                0x00000ed8                DRV_CANFDSPI_RamInit
+                0x00000ea0       0x3c ./driver/canfdspi/drv_canfdspi_api.o
+                0x00000ea0                DRV_CANFDSPI_RamInit
  .text.DRV_CANFDSPI_BitTimeConfigureNominal40MHz
-                0x00000f14       0x8c ./driver/canfdspi/drv_canfdspi_api.o
-                0x00000f14                DRV_CANFDSPI_BitTimeConfigureNominal40MHz
+                0x00000edc       0x8c ./driver/canfdspi/drv_canfdspi_api.o
+                0x00000edc                DRV_CANFDSPI_BitTimeConfigureNominal40MHz
  .text.DRV_CANFDSPI_BitTimeConfigureData40MHz
-                0x00000fa0      0x17c ./driver/canfdspi/drv_canfdspi_api.o
-                0x00000fa0                DRV_CANFDSPI_BitTimeConfigureData40MHz
+                0x00000f68      0x17c ./driver/canfdspi/drv_canfdspi_api.o
+                0x00000f68                DRV_CANFDSPI_BitTimeConfigureData40MHz
  .text.DRV_CANFDSPI_BitTimeConfigureNominal20MHz
-                0x0000111c       0x58 ./driver/canfdspi/drv_canfdspi_api.o
-                0x0000111c                DRV_CANFDSPI_BitTimeConfigureNominal20MHz
+                0x000010e4       0x58 ./driver/canfdspi/drv_canfdspi_api.o
+                0x000010e4                DRV_CANFDSPI_BitTimeConfigureNominal20MHz
  .text.DRV_CANFDSPI_BitTimeConfigureData20MHz
-                0x00001174       0x9c ./driver/canfdspi/drv_canfdspi_api.o
-                0x00001174                DRV_CANFDSPI_BitTimeConfigureData20MHz
+                0x0000113c       0x9c ./driver/canfdspi/drv_canfdspi_api.o
+                0x0000113c                DRV_CANFDSPI_BitTimeConfigureData20MHz
  .text.DRV_CANFDSPI_BitTimeConfigureNominal10MHz
-                0x00001210       0x58 ./driver/canfdspi/drv_canfdspi_api.o
-                0x00001210                DRV_CANFDSPI_BitTimeConfigureNominal10MHz
+                0x000011d8       0x58 ./driver/canfdspi/drv_canfdspi_api.o
+                0x000011d8                DRV_CANFDSPI_BitTimeConfigureNominal10MHz
  .text.DRV_CANFDSPI_BitTimeConfigureData10MHz
-                0x00001268       0x7c ./driver/canfdspi/drv_canfdspi_api.o
-                0x00001268                DRV_CANFDSPI_BitTimeConfigureData10MHz
+                0x00001230       0x7c ./driver/canfdspi/drv_canfdspi_api.o
+                0x00001230                DRV_CANFDSPI_BitTimeConfigureData10MHz
  .text.DRV_CANFDSPI_BitTimeConfigure
-                0x000012e4       0x58 ./driver/canfdspi/drv_canfdspi_api.o
-                0x000012e4                DRV_CANFDSPI_BitTimeConfigure
+                0x000012ac       0x58 ./driver/canfdspi/drv_canfdspi_api.o
+                0x000012ac                DRV_CANFDSPI_BitTimeConfigure
  .text.DRV_CANFDSPI_DlcToDataBytes
-                0x0000133c       0x1c ./driver/canfdspi/drv_canfdspi_api.o
-                0x0000133c                DRV_CANFDSPI_DlcToDataBytes
+                0x00001304       0x1c ./driver/canfdspi/drv_canfdspi_api.o
+                0x00001304                DRV_CANFDSPI_DlcToDataBytes
  .text.DRV_CANFDSPI_TransmitChannelLoad
-                0x00001358       0xee ./driver/canfdspi/drv_canfdspi_api.o
-                0x00001358                DRV_CANFDSPI_TransmitChannelLoad
- *fill*         0x00001446        0x2 ff
+                0x00001320       0xee ./driver/canfdspi/drv_canfdspi_api.o
+                0x00001320                DRV_CANFDSPI_TransmitChannelLoad
+ *fill*         0x0000140e        0x2 ff
  .text.Chip_SetupIrcClocking
-                0x00001448       0x20 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
-                0x00001448                Chip_SetupIrcClocking
+                0x00001410       0x20 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+                0x00001410                Chip_SetupIrcClocking
  .text.Chip_SystemInit
-                0x00001468       0x10 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
-                0x00001468                Chip_SystemInit
+                0x00001430       0x10 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+                0x00001430                Chip_SystemInit
  .text.Chip_Clock_SetSystemPLLSource
-                0x00001478       0x2c D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
-                0x00001478                Chip_Clock_SetSystemPLLSource
+                0x00001440       0x2c D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+                0x00001440                Chip_Clock_SetSystemPLLSource
  .text.Chip_Clock_SetMainClockSource
-                0x000014a4       0x2c D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
-                0x000014a4                Chip_Clock_SetMainClockSource
+                0x0000146c       0x2c D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+                0x0000146c                Chip_Clock_SetMainClockSource
  .text.Chip_Clock_SetupSystemPLL
-                0x000014d0       0x38 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+                0x00001498       0x38 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
  .text.Chip_Clock_IsSystemPLLLocked
-                0x00001508       0x1c D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+                0x000014d0       0x1c D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
  .text.Chip_Clock_SetSysClockDiv
-                0x00001524       0x1c D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+                0x000014ec       0x1c D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
  .text.Chip_FMC_SetFLASHAccess
-                0x00001540       0x2c D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+                0x00001508       0x2c D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
  .text.pll_config
-                0x0000156c       0x6c D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+                0x00001534       0x6c D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
  .text.Chip_IRC_SetFreq
-                0x000015d8       0xf4 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
-                0x000015d8                Chip_IRC_SetFreq
+                0x000015a0       0xf4 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+                0x000015a0                Chip_IRC_SetFreq
  .text.Chip_SYSCTL_PowerDown
-                0x000016cc       0x44 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
-                0x000016cc                Chip_SYSCTL_PowerDown
+                0x00001694       0x44 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+                0x00001694                Chip_SYSCTL_PowerDown
  .text.Chip_SYSCTL_PowerUp
-                0x00001710       0x44 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
-                0x00001710                Chip_SYSCTL_PowerUp
+                0x000016d8       0x44 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+                0x000016d8                Chip_SYSCTL_PowerUp
  .text.__weak_main
-                0x00001754        0x8 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__weak__main.o)
-                0x00001754                __weak_main
-                0x00001754                __main
- .text.rand     0x0000175c       0x40 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdlib.o)
-                0x0000175c                rand
+                0x0000171c        0x8 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__weak__main.o)
+                0x0000171c                __weak_main
+                0x0000171c                __main
+ .text.rand     0x00001724       0x40 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdlib.o)
+                0x00001724                rand
  .text.__gnu_thumb1_case_uqi
-                0x0000179c       0x10 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(thumb1_switch_helpers.o)
-                0x0000179c                __gnu_thumb1_case_uqi
+                0x00001764       0x10 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(thumb1_switch_helpers.o)
+                0x00001764                __gnu_thumb1_case_uqi
  *(.rodata .rodata.* .constdata .constdata.*)
  .rodata.CSWTCH.8
-                0x000017ac       0x10 ./src/I2C_Driver.o
+                0x00001774       0x10 ./src/I2C_Driver.o
  .rodata.CSWTCH.222
-                0x000017bc        0x7 ./driver/canfdspi/drv_canfdspi_api.o
- *fill*         0x000017c3        0x1 ff
+                0x00001784        0x7 ./driver/canfdspi/drv_canfdspi_api.o
+ *fill*         0x0000178b        0x1 ff
  .rodata.config_tab
-                0x000017c4      0x354 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
-                0x00001b18                . = ALIGN (0x4)
+                0x0000178c      0x354 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+                0x00001ae0                . = ALIGN (0x4)
 
-.glue_7         0x00001b18        0x0
- .glue_7        0x00001b18        0x0 linker stubs
+.glue_7         0x00001ae0        0x0
+ .glue_7        0x00001ae0        0x0 linker stubs
 
-.glue_7t        0x00001b18        0x0
- .glue_7t       0x00001b18        0x0 linker stubs
+.glue_7t        0x00001ae0        0x0
+ .glue_7t       0x00001ae0        0x0 linker stubs
 
-.vfp11_veneer   0x00001b18        0x0
- .vfp11_veneer  0x00001b18        0x0 linker stubs
+.vfp11_veneer   0x00001ae0        0x0
+ .vfp11_veneer  0x00001ae0        0x0 linker stubs
 
-.v4_bx          0x00001b18        0x0
- .v4_bx         0x00001b18        0x0 linker stubs
+.v4_bx          0x00001ae0        0x0
+ .v4_bx         0x00001ae0        0x0 linker stubs
 
-.iplt           0x00001b18        0x0
- .iplt          0x00001b18        0x0 ./src/GPIO_Driver.o
+.iplt           0x00001ae0        0x0
+ .iplt          0x00001ae0        0x0 ./src/GPIO_Driver.o
 
-.rel.dyn        0x00001b18        0x0
- .rel.iplt      0x00001b18        0x0 ./src/GPIO_Driver.o
+.rel.dyn        0x00001ae0        0x0
+ .rel.iplt      0x00001ae0        0x0 ./src/GPIO_Driver.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x00001b18                __exidx_start = .
+                0x00001ae0                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x00001b18                __exidx_end = .
-                0x00001b18                _etext = .
+                0x00001ae0                __exidx_end = .
+                0x00001ae0                _etext = .
 
 .mtb_buffer_default
                 0x10000000      0x100
@@ -1890,7 +1939,7 @@ END GROUP
                 0x10000100                . = ALIGN (0x4)
                 0x10000100                _end_uninit_RESERVED = .
 
-.data           0x10000100       0xe4 load address 0x00001b18
+.data           0x10000100       0xe4 load address 0x00001ae0
  FILL mask 0xff
                 0x10000100                _data = .
  *(vtable)
@@ -1905,10 +1954,10 @@ END GROUP
                 0x100001e4                . = ALIGN (0x4)
                 0x100001e4                _edata = .
 
-.igot.plt       0x100001e4        0x0 load address 0x00001bfc
+.igot.plt       0x100001e4        0x0 load address 0x00001bc4
  .igot.plt      0x100001e4        0x0 ./src/GPIO_Driver.o
 
-.bss            0x100001e4      0x270 load address 0x00001bfc
+.bss            0x100001e4      0x270 load address 0x00001bc4
                 0x100001e4                _bss = .
  *(.bss*)
  .bss.I2C_Device_Instance_Table
@@ -1978,7 +2027,7 @@ END GROUP
                 0x10000454                _ebss = .
                 [!provide]                PROVIDE (end, .)
 
-.noinit         0x10000454        0x0 load address 0x00001bfc
+.noinit         0x10000454        0x0 load address 0x00001bc4
                 0x10000454                _noinit = .
  *(.noinit*)
                 0x10000454                . = ALIGN (0x4)
@@ -1988,206 +2037,158 @@ END GROUP
                 0xefffed51                PROVIDE (__valid_user_code_checksum, (0x0 - (((_vStackTop + (ResetISR + 0x1)) + (DEFINED (NMI_Handler)?NMI_Handler:M0_NMI_Handler + 0x1)) + (DEFINED (HardFault_Handler)?HardFault_Handler:M0_HardFault_Handler + 0x1))))
 OUTPUT(MCP2517FD_ExampleFor_LPC82X.axf elf32-littlearm)
 
-.debug_info     0x00000000     0xd2c2
- .debug_info    0x00000000      0x698 ./src/GPIO_Driver.o
- .debug_info    0x00000698      0xddf ./src/I2C_Driver.o
- .debug_info    0x00001477     0x145d ./src/MCP2517FD_ExampleFor_LPC82X.o
- .debug_info    0x000028d4      0xb48 ./src/SPI_Driver.o
- .debug_info    0x0000341c       0x73 ./src/aeabi_romdiv_patch.o
- .debug_info    0x0000348f      0x278 ./src/cr_startup_lpc82x.o
- .debug_info    0x00003707       0x51 ./src/mtb.o
- .debug_info    0x00003758      0x1df ./src/sysinit.o
- .debug_info    0x00003937      0x3b4 ./driver/spi/drv_spi.o
- .debug_info    0x00003ceb     0x7092 ./driver/canfdspi/drv_canfdspi_api.o
- .debug_info    0x0000ad7d      0x5ea D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
- .debug_info    0x0000b367      0xb7f D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
- .debug_info    0x0000bee6      0xf4d D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
- .debug_info    0x0000ce33      0x48f D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+.debug_info     0x00000000     0xcc16
+ .debug_info    0x00000000      0xddf ./src/I2C_Driver.o
+ .debug_info    0x00000ddf     0x1449 ./src/MCP2517FD_ExampleFor_LPC82X.o
+ .debug_info    0x00002228      0xb48 ./src/SPI_Driver.o
+ .debug_info    0x00002d70       0x73 ./src/aeabi_romdiv_patch.o
+ .debug_info    0x00002de3      0x278 ./src/cr_startup_lpc82x.o
+ .debug_info    0x0000305b       0x51 ./src/mtb.o
+ .debug_info    0x000030ac      0x1df ./src/sysinit.o
+ .debug_info    0x0000328b      0x3b4 ./driver/spi/drv_spi.o
+ .debug_info    0x0000363f     0x7092 ./driver/canfdspi/drv_canfdspi_api.o
+ .debug_info    0x0000a6d1      0x5ea D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .debug_info    0x0000acbb      0xb7f D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .debug_info    0x0000b83a      0xf4d D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .debug_info    0x0000c787      0x48f D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
 
-.debug_abbrev   0x00000000     0x17fa
- .debug_abbrev  0x00000000      0x176 ./src/GPIO_Driver.o
- .debug_abbrev  0x00000176      0x315 ./src/I2C_Driver.o
- .debug_abbrev  0x0000048b      0x30e ./src/MCP2517FD_ExampleFor_LPC82X.o
- .debug_abbrev  0x00000799      0x280 ./src/SPI_Driver.o
- .debug_abbrev  0x00000a19       0x12 ./src/aeabi_romdiv_patch.o
- .debug_abbrev  0x00000a2b      0x114 ./src/cr_startup_lpc82x.o
- .debug_abbrev  0x00000b3f       0x41 ./src/mtb.o
- .debug_abbrev  0x00000b80       0xa0 ./src/sysinit.o
- .debug_abbrev  0x00000c20      0x15a ./driver/spi/drv_spi.o
- .debug_abbrev  0x00000d7a      0x40a ./driver/canfdspi/drv_canfdspi_api.o
- .debug_abbrev  0x00001184      0x141 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
- .debug_abbrev  0x000012c5      0x272 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
- .debug_abbrev  0x00001537      0x1f5 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
- .debug_abbrev  0x0000172c       0xce D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+.debug_abbrev   0x00000000     0x1684
+ .debug_abbrev  0x00000000      0x315 ./src/I2C_Driver.o
+ .debug_abbrev  0x00000315      0x30e ./src/MCP2517FD_ExampleFor_LPC82X.o
+ .debug_abbrev  0x00000623      0x280 ./src/SPI_Driver.o
+ .debug_abbrev  0x000008a3       0x12 ./src/aeabi_romdiv_patch.o
+ .debug_abbrev  0x000008b5      0x114 ./src/cr_startup_lpc82x.o
+ .debug_abbrev  0x000009c9       0x41 ./src/mtb.o
+ .debug_abbrev  0x00000a0a       0xa0 ./src/sysinit.o
+ .debug_abbrev  0x00000aaa      0x15a ./driver/spi/drv_spi.o
+ .debug_abbrev  0x00000c04      0x40a ./driver/canfdspi/drv_canfdspi_api.o
+ .debug_abbrev  0x0000100e      0x141 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .debug_abbrev  0x0000114f      0x272 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .debug_abbrev  0x000013c1      0x1f5 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .debug_abbrev  0x000015b6       0xce D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
 
-.debug_loc      0x00000000     0x5cc4
- .debug_loc     0x00000000       0x97 ./src/GPIO_Driver.o
- .debug_loc     0x00000097      0x251 ./src/I2C_Driver.o
- .debug_loc     0x000002e8      0x100 ./src/MCP2517FD_ExampleFor_LPC82X.o
- .debug_loc     0x000003e8      0x252 ./src/SPI_Driver.o
- .debug_loc     0x0000063a      0x1e7 ./src/cr_startup_lpc82x.o
- .debug_loc     0x00000821      0x19b ./driver/spi/drv_spi.o
- .debug_loc     0x000009bc     0x5308 ./driver/canfdspi/drv_canfdspi_api.o
+.debug_loc      0x00000000     0x5c2d
+ .debug_loc     0x00000000      0x251 ./src/I2C_Driver.o
+ .debug_loc     0x00000251      0x100 ./src/MCP2517FD_ExampleFor_LPC82X.o
+ .debug_loc     0x00000351      0x252 ./src/SPI_Driver.o
+ .debug_loc     0x000005a3      0x1e7 ./src/cr_startup_lpc82x.o
+ .debug_loc     0x0000078a      0x19b ./driver/spi/drv_spi.o
+ .debug_loc     0x00000925     0x5308 ./driver/canfdspi/drv_canfdspi_api.o
 
-.debug_aranges  0x00000000      0x810
+.debug_aranges  0x00000000      0x7d8
  .debug_aranges
-                0x00000000       0x38 ./src/GPIO_Driver.o
+                0x00000000       0x68 ./src/I2C_Driver.o
  .debug_aranges
-                0x00000038       0x68 ./src/I2C_Driver.o
+                0x00000068       0x48 ./src/MCP2517FD_ExampleFor_LPC82X.o
  .debug_aranges
-                0x000000a0       0x48 ./src/MCP2517FD_ExampleFor_LPC82X.o
+                0x000000b0       0x40 ./src/SPI_Driver.o
  .debug_aranges
-                0x000000e8       0x40 ./src/SPI_Driver.o
+                0x000000f0       0x28 ./src/aeabi_romdiv_patch.o
  .debug_aranges
-                0x00000128       0x28 ./src/aeabi_romdiv_patch.o
+                0x00000118       0x60 ./src/cr_startup_lpc82x.o
  .debug_aranges
-                0x00000150       0x60 ./src/cr_startup_lpc82x.o
+                0x00000178       0x18 ./src/mtb.o
  .debug_aranges
-                0x000001b0       0x18 ./src/mtb.o
+                0x00000190       0x20 ./src/sysinit.o
  .debug_aranges
-                0x000001c8       0x20 ./src/sysinit.o
+                0x000001b0       0x38 ./driver/spi/drv_spi.o
  .debug_aranges
-                0x000001e8       0x38 ./driver/spi/drv_spi.o
+                0x000001e8      0x420 ./driver/canfdspi/drv_canfdspi_api.o
  .debug_aranges
-                0x00000220      0x420 ./driver/canfdspi/drv_canfdspi_api.o
+                0x00000608       0x50 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
  .debug_aranges
-                0x00000640       0x50 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+                0x00000658       0xf0 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
  .debug_aranges
-                0x00000690       0xf0 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+                0x00000748       0x58 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
  .debug_aranges
-                0x00000780       0x58 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
- .debug_aranges
-                0x000007d8       0x38 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+                0x000007a0       0x38 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
 
-.debug_ranges   0x00000000      0x810
- .debug_ranges  0x00000000       0x28 ./src/GPIO_Driver.o
- .debug_ranges  0x00000028       0xa0 ./src/I2C_Driver.o
- .debug_ranges  0x000000c8       0x90 ./src/MCP2517FD_ExampleFor_LPC82X.o
- .debug_ranges  0x00000158       0x70 ./src/SPI_Driver.o
- .debug_ranges  0x000001c8       0x20 ./src/aeabi_romdiv_patch.o
- .debug_ranges  0x000001e8       0x50 ./src/cr_startup_lpc82x.o
- .debug_ranges  0x00000238       0x10 ./src/sysinit.o
- .debug_ranges  0x00000248       0x28 ./driver/spi/drv_spi.o
- .debug_ranges  0x00000270      0x410 ./driver/canfdspi/drv_canfdspi_api.o
- .debug_ranges  0x00000680       0x40 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
- .debug_ranges  0x000006c0       0xe0 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
- .debug_ranges  0x000007a0       0x48 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
- .debug_ranges  0x000007e8       0x28 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+.debug_ranges   0x00000000      0x7e8
+ .debug_ranges  0x00000000       0xa0 ./src/I2C_Driver.o
+ .debug_ranges  0x000000a0       0x90 ./src/MCP2517FD_ExampleFor_LPC82X.o
+ .debug_ranges  0x00000130       0x70 ./src/SPI_Driver.o
+ .debug_ranges  0x000001a0       0x20 ./src/aeabi_romdiv_patch.o
+ .debug_ranges  0x000001c0       0x50 ./src/cr_startup_lpc82x.o
+ .debug_ranges  0x00000210       0x10 ./src/sysinit.o
+ .debug_ranges  0x00000220       0x28 ./driver/spi/drv_spi.o
+ .debug_ranges  0x00000248      0x410 ./driver/canfdspi/drv_canfdspi_api.o
+ .debug_ranges  0x00000658       0x40 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .debug_ranges  0x00000698       0xe0 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .debug_ranges  0x00000778       0x48 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .debug_ranges  0x000007c0       0x28 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
 
-.debug_macro    0x00000000     0x49d9
- .debug_macro   0x00000000      0x203 ./src/GPIO_Driver.o
- .debug_macro   0x00000203      0x85c ./src/GPIO_Driver.o
- .debug_macro   0x00000a5f       0x10 ./src/GPIO_Driver.o
- .debug_macro   0x00000a6f      0x12d ./src/GPIO_Driver.o
- .debug_macro   0x00000b9c      0x5b2 ./src/GPIO_Driver.o
- .debug_macro   0x0000114e       0x22 ./src/GPIO_Driver.o
- .debug_macro   0x00001170       0x81 ./src/GPIO_Driver.o
- .debug_macro   0x000011f1       0x16 ./src/GPIO_Driver.o
- .debug_macro   0x00001207       0x28 ./src/GPIO_Driver.o
- .debug_macro   0x0000122f       0x3a ./src/GPIO_Driver.o
- .debug_macro   0x00001269       0x1f ./src/GPIO_Driver.o
- .debug_macro   0x00001288      0x250 ./src/GPIO_Driver.o
- .debug_macro   0x000014d8      0x1ae ./src/GPIO_Driver.o
- .debug_macro   0x00001686       0xca ./src/GPIO_Driver.o
- .debug_macro   0x00001750       0x6a ./src/GPIO_Driver.o
- .debug_macro   0x000017ba       0x70 ./src/GPIO_Driver.o
- .debug_macro   0x0000182a       0x28 ./src/GPIO_Driver.o
- .debug_macro   0x00001852      0x190 ./src/GPIO_Driver.o
- .debug_macro   0x000019e2       0x24 ./src/GPIO_Driver.o
- .debug_macro   0x00001a06       0x64 ./src/GPIO_Driver.o
- .debug_macro   0x00001a6a       0x10 ./src/GPIO_Driver.o
- .debug_macro   0x00001a7a       0x22 ./src/GPIO_Driver.o
- .debug_macro   0x00001a9c       0xb2 ./src/GPIO_Driver.o
- .debug_macro   0x00001b4e       0x58 ./src/GPIO_Driver.o
- .debug_macro   0x00001ba6       0x58 ./src/GPIO_Driver.o
- .debug_macro   0x00001bfe       0x6a ./src/GPIO_Driver.o
- .debug_macro   0x00001c68       0x82 ./src/GPIO_Driver.o
- .debug_macro   0x00001cea       0x16 ./src/GPIO_Driver.o
- .debug_macro   0x00001d00      0x16f ./src/GPIO_Driver.o
- .debug_macro   0x00001e6f       0x22 ./src/GPIO_Driver.o
- .debug_macro   0x00001e91       0x52 ./src/GPIO_Driver.o
- .debug_macro   0x00001ee3      0x181 ./src/GPIO_Driver.o
- .debug_macro   0x00002064      0x289 ./src/GPIO_Driver.o
- .debug_macro   0x000022ed      0x28b ./src/GPIO_Driver.o
- .debug_macro   0x00002578       0x2e ./src/GPIO_Driver.o
- .debug_macro   0x000025a6       0x22 ./src/GPIO_Driver.o
- .debug_macro   0x000025c8      0x216 ./src/GPIO_Driver.o
- .debug_macro   0x000027de      0x1d5 ./src/GPIO_Driver.o
- .debug_macro   0x000029b3      0x222 ./src/I2C_Driver.o
- .debug_macro   0x00002bd5       0x74 ./src/I2C_Driver.o
- .debug_macro   0x00002c49       0x70 ./src/I2C_Driver.o
- .debug_macro   0x00002cb9      0x260 ./src/MCP2517FD_ExampleFor_LPC82X.o
- .debug_macro   0x00002f19       0x16 ./src/MCP2517FD_ExampleFor_LPC82X.o
- .debug_macro   0x00002f2f       0x1c ./src/MCP2517FD_ExampleFor_LPC82X.o
- .debug_macro   0x00002f4b       0x22 ./src/MCP2517FD_ExampleFor_LPC82X.o
- .debug_macro   0x00002f6d      0x127 ./src/MCP2517FD_ExampleFor_LPC82X.o
- .debug_macro   0x00003094       0x22 ./src/MCP2517FD_ExampleFor_LPC82X.o
- .debug_macro   0x000030b6       0x7a ./src/MCP2517FD_ExampleFor_LPC82X.o
- .debug_macro   0x00003130      0x208 ./src/SPI_Driver.o
- .debug_macro   0x00003338       0x1c ./src/SPI_Driver.o
- .debug_macro   0x00003354       0x23 ./src/cr_startup_lpc82x.o
- .debug_macro   0x00003377       0x29 ./src/mtb.o
- .debug_macro   0x000033a0       0x82 ./src/mtb.o
- .debug_macro   0x00003422       0x10 ./src/mtb.o
- .debug_macro   0x00003432      0x1ff ./src/sysinit.o
- .debug_macro   0x00003631       0x7b ./src/sysinit.o
- .debug_macro   0x000036ac      0x21d ./driver/spi/drv_spi.o
- .debug_macro   0x000038c9       0x1c ./driver/spi/drv_spi.o
- .debug_macro   0x000038e5       0x9c ./driver/canfdspi/drv_canfdspi_api.o
- .debug_macro   0x00003981      0x20b D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
- .debug_macro   0x00003b8c      0x838 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
- .debug_macro   0x000043c4      0x1ff D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
- .debug_macro   0x000045c3      0x1ff D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
- .debug_macro   0x000047c2      0x217 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+.debug_macro    0x00000000     0x2026
+ .debug_macro   0x00000000      0x222 ./src/I2C_Driver.o
+ .debug_macro   0x00000222       0x74 ./src/I2C_Driver.o
+ .debug_macro   0x00000296       0x70 ./src/I2C_Driver.o
+ .debug_macro   0x00000306      0x260 ./src/MCP2517FD_ExampleFor_LPC82X.o
+ .debug_macro   0x00000566       0x16 ./src/MCP2517FD_ExampleFor_LPC82X.o
+ .debug_macro   0x0000057c       0x1c ./src/MCP2517FD_ExampleFor_LPC82X.o
+ .debug_macro   0x00000598       0x22 ./src/MCP2517FD_ExampleFor_LPC82X.o
+ .debug_macro   0x000005ba      0x127 ./src/MCP2517FD_ExampleFor_LPC82X.o
+ .debug_macro   0x000006e1       0x22 ./src/MCP2517FD_ExampleFor_LPC82X.o
+ .debug_macro   0x00000703       0x7a ./src/MCP2517FD_ExampleFor_LPC82X.o
+ .debug_macro   0x0000077d      0x208 ./src/SPI_Driver.o
+ .debug_macro   0x00000985       0x1c ./src/SPI_Driver.o
+ .debug_macro   0x000009a1       0x23 ./src/cr_startup_lpc82x.o
+ .debug_macro   0x000009c4       0x29 ./src/mtb.o
+ .debug_macro   0x000009ed       0x82 ./src/mtb.o
+ .debug_macro   0x00000a6f       0x10 ./src/mtb.o
+ .debug_macro   0x00000a7f      0x1ff ./src/sysinit.o
+ .debug_macro   0x00000c7e       0x7b ./src/sysinit.o
+ .debug_macro   0x00000cf9      0x21d ./driver/spi/drv_spi.o
+ .debug_macro   0x00000f16       0x1c ./driver/spi/drv_spi.o
+ .debug_macro   0x00000f32       0x9c ./driver/canfdspi/drv_canfdspi_api.o
+ .debug_macro   0x00000fce      0x20b D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .debug_macro   0x000011d9      0x838 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .debug_macro   0x00001a11      0x1ff D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .debug_macro   0x00001c10      0x1ff D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .debug_macro   0x00001e0f      0x217 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
 
-.debug_line     0x00000000     0x4353
- .debug_line    0x00000000      0x42a ./src/GPIO_Driver.o
- .debug_line    0x0000042a      0x53f ./src/I2C_Driver.o
- .debug_line    0x00000969      0x5bb ./src/MCP2517FD_ExampleFor_LPC82X.o
- .debug_line    0x00000f24      0x48d ./src/SPI_Driver.o
- .debug_line    0x000013b1       0x65 ./src/aeabi_romdiv_patch.o
- .debug_line    0x00001416       0x8d ./src/cr_startup_lpc82x.o
- .debug_line    0x000014a3       0x95 ./src/mtb.o
- .debug_line    0x00001538      0x38a ./src/sysinit.o
- .debug_line    0x000018c2      0x427 ./driver/spi/drv_spi.o
- .debug_line    0x00001ce9     0x1462 ./driver/canfdspi/drv_canfdspi_api.o
- .debug_line    0x0000314b      0x413 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
- .debug_line    0x0000355e      0x5da D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
- .debug_line    0x00003b38      0x453 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
- .debug_line    0x00003f8b      0x3c8 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+.debug_line     0x00000000     0x3f28
+ .debug_line    0x00000000      0x53f ./src/I2C_Driver.o
+ .debug_line    0x0000053f      0x5ba ./src/MCP2517FD_ExampleFor_LPC82X.o
+ .debug_line    0x00000af9      0x48d ./src/SPI_Driver.o
+ .debug_line    0x00000f86       0x65 ./src/aeabi_romdiv_patch.o
+ .debug_line    0x00000feb       0x8d ./src/cr_startup_lpc82x.o
+ .debug_line    0x00001078       0x95 ./src/mtb.o
+ .debug_line    0x0000110d      0x38a ./src/sysinit.o
+ .debug_line    0x00001497      0x427 ./driver/spi/drv_spi.o
+ .debug_line    0x000018be     0x1462 ./driver/canfdspi/drv_canfdspi_api.o
+ .debug_line    0x00002d20      0x413 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .debug_line    0x00003133      0x5da D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .debug_line    0x0000370d      0x453 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .debug_line    0x00003b60      0x3c8 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
 
-.debug_str      0x00000000    0x11dae
- .debug_str     0x00000000     0xb4ad ./src/GPIO_Driver.o
-                               0xb555 (size before relaxing)
- .debug_str     0x0000b4ad      0x99d ./src/I2C_Driver.o
+.debug_str      0x00000000    0x11cfd
+ .debug_str     0x00000000     0xbd70 ./src/I2C_Driver.o
                                0xbe45 (size before relaxing)
- .debug_str     0x0000be4a     0x1839 ./src/MCP2517FD_ExampleFor_LPC82X.o
-                               0xcd77 (size before relaxing)
- .debug_str     0x0000d683      0x275 ./src/SPI_Driver.o
+ .debug_str     0x0000bd70     0x184a ./src/MCP2517FD_ExampleFor_LPC82X.o
+                               0xcd6d (size before relaxing)
+ .debug_str     0x0000d5ba      0x287 ./src/SPI_Driver.o
                                0xbb98 (size before relaxing)
- .debug_str     0x0000d8f8      0x1c5 ./src/cr_startup_lpc82x.o
+ .debug_str     0x0000d841      0x1c5 ./src/cr_startup_lpc82x.o
                                0x25da (size before relaxing)
- .debug_str     0x0000dabd      0x519 ./src/mtb.o
+ .debug_str     0x0000da06      0x519 ./src/mtb.o
                                0x2905 (size before relaxing)
- .debug_str     0x0000dfd6       0x21 ./src/sysinit.o
+ .debug_str     0x0000df1f       0x21 ./src/sysinit.o
                                0xb44d (size before relaxing)
- .debug_str     0x0000dff7       0xb2 ./driver/spi/drv_spi.o
+ .debug_str     0x0000df40       0xb2 ./driver/spi/drv_spi.o
                                0xb559 (size before relaxing)
- .debug_str     0x0000e0a9     0x297c ./driver/canfdspi/drv_canfdspi_api.o
+ .debug_str     0x0000dff2     0x2982 ./driver/canfdspi/drv_canfdspi_api.o
                                0x7e3a (size before relaxing)
- .debug_str     0x00010a25      0x33a D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .debug_str     0x00010974      0x33a D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
                                0xb62a (size before relaxing)
- .debug_str     0x00010d5f      0x6e4 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .debug_str     0x00010cae      0x6e4 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
                                0xbd96 (size before relaxing)
- .debug_str     0x00011443      0x857 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .debug_str     0x00011392      0x857 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
                                0xc00a (size before relaxing)
- .debug_str     0x00011c9a      0x114 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .debug_str     0x00011be9      0x114 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
                                0xb4e6 (size before relaxing)
 
 .comment        0x00000000       0xdc
- .comment       0x00000000       0x6e ./src/GPIO_Driver.o
+ .comment       0x00000000       0x6e ./src/I2C_Driver.o
                                  0x6f (size before relaxing)
- .comment       0x0000006e       0x6f ./src/I2C_Driver.o
  .comment       0x0000006e       0x6f ./src/MCP2517FD_ExampleFor_LPC82X.o
  .comment       0x0000006e       0x6f ./src/SPI_Driver.o
  .comment       0x0000006e       0x6f ./src/cr_startup_lpc82x.o
@@ -2206,50 +2207,47 @@ OUTPUT(MCP2517FD_ExampleFor_LPC82X.axf elf32-littlearm)
 .ARM.attributes
                 0x00000000       0x2f
  .ARM.attributes
-                0x00000000       0x31 ./src/GPIO_Driver.o
+                0x00000000       0x31 ./src/I2C_Driver.o
  .ARM.attributes
-                0x00000031       0x31 ./src/I2C_Driver.o
+                0x00000031       0x31 ./src/MCP2517FD_ExampleFor_LPC82X.o
  .ARM.attributes
-                0x00000062       0x31 ./src/MCP2517FD_ExampleFor_LPC82X.o
+                0x00000062       0x31 ./src/SPI_Driver.o
  .ARM.attributes
-                0x00000093       0x31 ./src/SPI_Driver.o
+                0x00000093       0x21 ./src/aeabi_romdiv_patch.o
  .ARM.attributes
-                0x000000c4       0x21 ./src/aeabi_romdiv_patch.o
+                0x000000b4       0x31 ./src/cr_startup_lpc82x.o
  .ARM.attributes
-                0x000000e5       0x31 ./src/cr_startup_lpc82x.o
+                0x000000e5       0x31 ./src/mtb.o
  .ARM.attributes
-                0x00000116       0x31 ./src/mtb.o
+                0x00000116       0x31 ./src/sysinit.o
  .ARM.attributes
-                0x00000147       0x31 ./src/sysinit.o
+                0x00000147       0x31 ./driver/spi/drv_spi.o
  .ARM.attributes
-                0x00000178       0x31 ./driver/spi/drv_spi.o
+                0x00000178       0x31 ./driver/canfdspi/drv_canfdspi_api.o
  .ARM.attributes
-                0x000001a9       0x31 ./driver/canfdspi/drv_canfdspi_api.o
+                0x000001a9       0x31 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
  .ARM.attributes
-                0x000001da       0x31 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+                0x000001da       0x31 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
  .ARM.attributes
-                0x0000020b       0x31 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+                0x0000020b       0x31 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
  .ARM.attributes
-                0x0000023c       0x31 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+                0x0000023c       0x31 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
  .ARM.attributes
-                0x0000026d       0x31 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+                0x0000026d       0x31 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__weak__main.o)
  .ARM.attributes
-                0x0000029e       0x31 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__weak__main.o)
+                0x0000029e       0x31 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdlib.o)
  .ARM.attributes
-                0x000002cf       0x31 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdlib.o)
- .ARM.attributes
-                0x00000300       0x21 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(thumb1_switch_helpers.o)
+                0x000002cf       0x21 d:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(thumb1_switch_helpers.o)
 
-.debug_frame    0x00000000     0x18a0
- .debug_frame   0x00000000       0x5c ./src/GPIO_Driver.o
- .debug_frame   0x0000005c      0x108 ./src/I2C_Driver.o
- .debug_frame   0x00000164       0xcc ./src/MCP2517FD_ExampleFor_LPC82X.o
- .debug_frame   0x00000230       0x94 ./src/SPI_Driver.o
- .debug_frame   0x000002c4       0xb0 ./src/cr_startup_lpc82x.o
- .debug_frame   0x00000374       0x28 ./src/sysinit.o
- .debug_frame   0x0000039c       0x78 ./driver/spi/drv_spi.o
- .debug_frame   0x00000414      0xec0 ./driver/canfdspi/drv_canfdspi_api.o
- .debug_frame   0x000012d4       0xe0 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
- .debug_frame   0x000013b4      0x354 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
- .debug_frame   0x00001708      0x108 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
- .debug_frame   0x00001810       0x90 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+.debug_frame    0x00000000     0x1844
+ .debug_frame   0x00000000      0x108 ./src/I2C_Driver.o
+ .debug_frame   0x00000108       0xcc ./src/MCP2517FD_ExampleFor_LPC82X.o
+ .debug_frame   0x000001d4       0x94 ./src/SPI_Driver.o
+ .debug_frame   0x00000268       0xb0 ./src/cr_startup_lpc82x.o
+ .debug_frame   0x00000318       0x28 ./src/sysinit.o
+ .debug_frame   0x00000340       0x78 ./driver/spi/drv_spi.o
+ .debug_frame   0x000003b8      0xec0 ./driver/canfdspi/drv_canfdspi_api.o
+ .debug_frame   0x00001278       0xe0 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .debug_frame   0x00001358      0x354 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .debug_frame   0x000016ac      0x108 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .debug_frame   0x000017b4       0x90 D:\NXP_workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
